@@ -8,6 +8,12 @@
      android:title="@string/quicksettings_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <com.superior.support.preferences.SecureSettingSwitchPreference
+          android:key="quick_settings_vibrate"
+          android:title="@string/quick_settings_vibrate_title"
+          android:summary="@string/quick_settings_vibrate_summary"
+          android:defaultValue="false" />
+
      <com.superior.support.preferences.SystemSettingSwitchPreference
           android:key="qs_show_data_usage"
           android:title="@string/qs_show_data_usage_title"

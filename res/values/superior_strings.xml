@@ -353,4 +353,8 @@
      <!-- QS footer data usage -->
      <string name="qs_show_data_usage_title">Show data usage</string>
      <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+
+     <!-- Quick settings haptic feedback -->
+     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
 </resources>
