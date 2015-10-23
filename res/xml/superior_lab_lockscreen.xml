@@ -29,6 +29,18 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title">
+
+        <com.superior.support.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/media_art_title"
+            android:summary="@string/media_art_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <!-- Udfps options -->
     <PreferenceCategory
         android:key="udfps_category"
