@@ -307,4 +307,12 @@
      <string name="lockscreen_weather_location_summary">Display current weather location</string>
      <string name="lockscreen_weather_text_title">Current condition</string>
      <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+
+     <!-- Media art -->
+     <string name="lockscreen_media_art_options_title">Media cover art</string>
+     <string name="media_art_title">Media cover art</string>
+     <string name="media_art_summary">Display media cover art when available</string>
+
+     <!-- Lock screen cover art -->
+     <string name="lockscreen_media_blur_title">Media art blur level</string>
 </resources>

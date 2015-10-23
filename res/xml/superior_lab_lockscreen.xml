@@ -25,6 +25,27 @@
         android:defaultValue="false" />
 
     <PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title">
+
+        <com.superior.support.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/media_art_title"
+            android:summary="@string/media_art_summary"
+            android:defaultValue="false" />
+
+        <com.superior.support.preferences.SystemSettingSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            android:dependency="lockscreen_media_metadata"
+            android:max="100"
+            settings:min="0"
+            settings:units="%"
+            settings:interval="5"
+            android:defaultValue="100" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/weather_category_title">
 
         <com.superior.support.preferences.SystemSettingSwitchPreference
