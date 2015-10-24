@@ -123,4 +123,9 @@
      <string name="powermenu_users">Users</string>
      <string name="powermenu_logout">Logout</string>
      <string name="powermenu_emergency">Emergency</string>
+
+     <!-- Power menu on secure lockscreen -->
+     <string name="lockscreen_enable_power_menu_title">Allow power menu on lockscreen</string>
+     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure
+          lockscreen</string>
 </resources>
