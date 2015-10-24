@@ -4,19 +4,24 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/powermenu_title"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:title="@string/powermenu_title"
+     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
-    android:title="@string/power_category">
+     <PreferenceCategory
+          android:title="@string/power_category">
 
-    <Preference
-         android:key="power_menu"
-         android:title="@string/power_menu_title"
-         android:summary="@string/power_menu_title_summary"
-         android:fragment="com.superior.lab.fragments.Powermenu" />
-    
-    </PreferenceCategory>
+          <Preference
+               android:key="power_menu"
+               android:title="@string/power_menu_title"
+               android:summary="@string/power_menu_title_summary"
+               android:fragment="com.superior.lab.fragments.Powermenu" />
+
+          <com.superior.support.preferences.SystemSettingSwitchPreference
+               android:key="lockscreen_enable_power_menu"
+               android:title="@string/lockscreen_enable_power_menu_title"
+               android:summary="@string/lockscreen_enable_power_menu_summary"
+               android:defaultValue="true" />
+     </PreferenceCategory>
 
 </PreferenceScreen>
