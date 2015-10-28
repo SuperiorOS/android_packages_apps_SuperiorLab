@@ -41,6 +41,12 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
 
+    <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:summary="@string/battery_style_category_summary"
+            android:fragment="com.superior.lab.fragments.StatusBarBattery" />
+
     <com.superior.support.preferences.SystemSettingSwitchPreference
         android:key="use_old_mobiletype"
         android:title="@string/use_old_mobiletype_title"
