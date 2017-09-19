@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 AospExtended ROM Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/power_menu_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_power"
+            android:title="@string/powermenu_power"
+            android:defaultValue="true" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_restart"
+            android:title="@string/powermenu_restart"
+            android:defaultValue="true" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_advanced"
+            android:title="@string/powermenu_advanced"
+            android:defaultValue="true" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_screenshot"
+            android:title="@string/powermenu_screenshot"
+            android:defaultValue="false" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_settings"
+            android:title="@string/powermenu_settings"
+            android:defaultValue="false" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_lockdown"
+            android:title="@string/powermenu_lockdown"
+            android:defaultValue="false" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_emergency"
+            android:title="@string/powermenu_emergency"
+            android:defaultValue="false" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_users"
+            android:title="@string/powermenu_users"
+            android:defaultValue="false" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_logout"
+            android:title="@string/powermenu_logout"
+            android:defaultValue="false" />
+
+</PreferenceScreen>
