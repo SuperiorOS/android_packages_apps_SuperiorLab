@@ -8,4 +8,15 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+    android:title="@string/power_category">
+
+    <Preference
+         android:key="power_menu"
+         android:title="@string/power_menu_title"
+         android:summary="@string/power_menu_title_summary"
+         android:fragment="com.superior.lab.fragments.Powermenu" />
+    
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -41,7 +41,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class PowerMenuSettings extends SettingsPreferenceFragment
+public class Powermenu extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
 
 
@@ -49,7 +49,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.superior_lab_power);
+        addPreferencesFromResource(R.xml.powermenu);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();

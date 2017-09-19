@@ -78,6 +78,7 @@
 
      <!-- Sub category -->
      <string name="general_category">General</string>
+     <string name="power_category">Power Menu</string>
 
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
@@ -148,4 +149,20 @@
      <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
      <string name="theme_customization_data_title">Data icon style</string>
      <string name="theme_customization_data_summary">Set custom data icon style</string>
+
+     <!-- Power Menu -->
+     <string name="power_menu_title">Power menu</string>
+     <string name="power_menu_title_summary">View or change power menu entries</string>
+     <string name="global_actions_title">Power menu items</string>
+     <string name="global_actions_screenshot">Screenshot</string>
+     <string name="global_actions_power">Power</string>
+     <string name="global_actions_advanced">Advanced reboot options</string>
+     <string name="global_actions_restart">Restart</string>
+     <string name="global_actions_airplane">Airplane</string>
+     <string name="global_actions_settings">Settings</string>
+     <string name="global_actions_lockdown">Lockdown</string>
+     <string name="global_actions_users">Users</string>
+     <string name="global_actions_logout">Logout</string>
+     <string name="global_actions_emergency">Emergency</string>
+     <string name="global_actions_device_controls">Device controls</string>
 </resources>
