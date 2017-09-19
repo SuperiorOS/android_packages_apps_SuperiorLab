@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 AospExtended ROM Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/power_menu_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_power"
+            android:title="@string/global_actions_power"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_restart"
+            android:title="@string/global_actions_restart"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_advanced"
+            android:title="@string/global_actions_advanced"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_screenshot"
+            android:title="@string/global_actions_screenshot"
+            android:defaultValue="false" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_settings"
+            android:title="@string/global_actions_settings"
+            android:defaultValue="false" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_lockdown"
+            android:title="@string/global_actions_lockdown"
+            android:defaultValue="false" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_emergency"
+            android:title="@string/global_actions_emergency"
+            android:defaultValue="flase" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_device_controls"
+            android:title="@string/global_actions_device_controls"
+            android:defaultValue="false" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_users"
+            android:title="@string/global_actions_users"
+            android:defaultValue="false" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_logout"
+            android:title="@string/global_actions_logout"
+            android:defaultValue="false" />
+
+</PreferenceScreen>
