@@ -11,12 +11,23 @@
     <PreferenceCategory
         android:title="@string/general_category">
 
-    <Preference
-        android:key="gesture_settings"
-        android:title="@string/aosp_gesture_preference"
-        android:summary="@string/aosp_gesture_summary"
-        android:fragment="com.android.settings.gestures.GestureSettings"
-        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
+        <Preference
+            android:key="gesture_settings"
+            android:title="@string/aosp_gesture_preference"
+            android:summary="@string/aosp_gesture_summary"
+            android:fragment="com.android.settings.gestures.GestureSettings"
+            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/dtts_category_header">
+
+        <!-- Double tap to sleep -->
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/status_bar_double_tap_to_sleep_title"
+            android:summary="@string/status_bar_double_tap_to_sleep_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 </PreferenceScreen>
