@@ -79,6 +79,7 @@
      <!-- Sub category -->
      <string name="general_category">General</string>
      <string name="statusbar_icons">Icons</string>
+     <string name="dt_category_header">Double tap gesture</string>
 
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
@@ -213,4 +214,9 @@
      <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
      <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1
           KB/s</string>
+
+     <!-- Double tap to sleep on status bar or lockscreen -->
+     <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
+     <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or
+          lockscreen to turn off the display</string>
 </resources>
