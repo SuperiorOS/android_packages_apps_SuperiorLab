@@ -82,4 +82,8 @@
      <string name="cancel">Cancel</string>
      <string name="save">Save</string>
 
+     <!-- AOSP Gestures -->
+     <string name="aosp_gesture_preference">System settings</string>
+     <string name="aosp_gesture_summary">Stock gestures included with AOSP</string>
+
 </resources>
