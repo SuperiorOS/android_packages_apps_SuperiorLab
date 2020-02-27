@@ -11,11 +11,23 @@
      <PreferenceCategory
         android:title="@string/general_category">
 
-     <com.superior.support.preferences.SystemSettingSwitchPreference
-        android:key="volbtn_music_controls"
-        android:title="@string/volume_button_music_control_title"
-        android:summary="@string/volume_button_music_control_summary"
-        android:defaultValue="false" />
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="volbtn_music_controls"
+            android:title="@string/volume_button_music_control_title"
+            android:summary="@string/volume_button_music_control_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="alert_slider_cat"
+        android:title="@string/alert_slider_cat_title">
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="alert_slider_notifications"
+            android:title="@string/alert_slider_notifications_title"
+            android:summary="@string/alert_slider_notifications_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 </PreferenceScreen>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022-2023 The SuperiorOS Project
+     Copyright (C) 2022-2024 The SuperiorOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -316,8 +316,14 @@
      <!-- Lock screen cover art -->
      <string name="lockscreen_media_blur_title">Media art blur level</string>
 
-    <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Less boring</string>
-    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+     <!-- Less boring heads up -->
+     <string name="less_boring_heads_up_title">Less boring</string>
+     <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
 
+     <!-- Alert Slider category (OnePlus devices) -->
+     <string name="alert_slider_cat_title">Alert slider</string>
+
+     <!-- Alert Slider Notifications (OnePlus devices) -->
+     <string name="alert_slider_notifications_title">Alert slider notifications</string>
+     <string name="alert_slider_notifications_summary">Display notification when changing alert slider position</string>
 </resources>
