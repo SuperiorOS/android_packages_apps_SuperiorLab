@@ -41,12 +41,22 @@ import com.android.internal.logging.nano.MetricsProto;
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener{
 
+    private static final String ALERT_SLIDER_CAT = "alert_slider_cat";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.superior_lab_button);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        final Resources res = getResources();
+
+        final PreferenceCategory alertSliderCat =
+        (PreferenceCategory) findPreference(ALERT_SLIDER_CAT);
+        boolean mAlertSliderAvailable = res.getBoolean(
+            com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable && alertSliderCat != null)
+            prefScreen.removePreference(alertSliderCat);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

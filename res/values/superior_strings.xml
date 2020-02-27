@@ -295,11 +295,20 @@
 
      <!-- Annoying Notifications -->
      <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for
+          notifications when screen is on</string>
 
      <!-- Heads up options -->
      <string name="notifications_category_title">Annoying notifications protection</string>
      <string name="less_boring_heads_up_title">Make heads up less annoying</string>
-     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if
+          they are not in foreground</string>
 
+     <!-- Alert Slider category (OnePlus devices) -->
+     <string name="alert_slider_cat_title">Alert slider</string>
+
+     <!-- Alert Slider Notifications (OnePlus devices) -->
+     <string name="alert_slider_notifications_title">Alert slider notifications</string>
+     <string name="alert_slider_notifications_summary">Display notification when changing alert
+          slider position</string>
 </resources>
