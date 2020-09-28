@@ -119,6 +119,7 @@
     <string name="themes_title">Themes</string>
     <string name="statusbar_title">Status bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="fingerprint_category">Fingerprint</string>
 
     <!-- Sub category -->
     <string name="general_category">General</string>
@@ -352,5 +353,11 @@
     <!-- GamesPropsUtils -->
     <string name="games_device_spoof_title">Unlock higher FPS in games</string>
     <string name="games_device_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
-    
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_success_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_success_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
+    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+
 </resources>
