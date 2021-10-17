@@ -35,4 +35,14 @@
         android:defaultValue="false" />
 
     </PreferenceCategory>
+    <PreferenceCategory
+         android:title="@string/dtts_category_header" >
+
+    <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:summary="@string/double_tap_sleep_gesture_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
