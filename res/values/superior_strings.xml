@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022-2023 The Superior OS Project
+<!-- Copyright (C) 2022-2023 The SuperiorOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -112,4 +112,10 @@
      <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
      <string name="theme_customization_data_title">Data icon style</string>
      <string name="theme_customization_data_summary">Set custom data icon style</string>
+
+     <!-- Quick QS pulldown -->
+     <string name="qs_quick_pulldown">Quick QS pulldown</string>
+     <string name="quick_pulldown_none">Disabled</string>
+     <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
+     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
 </resources>

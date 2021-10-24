@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 The SuperiorOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Quick QS pulldown -->
+    <string-array name="quick_pulldown_entries">
+        <item>@string/quick_pulldown_none</item>
+        <item>@string/quick_pulldown_right</item>
+        <item>@string/quick_pulldown_left</item>
+    </string-array>
+
+    <string-array name="quick_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
