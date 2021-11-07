@@ -20,4 +20,15 @@
     android:title="@string/navbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <PreferenceCategory
+        android:title="@string/general_category">
+
+    <Preference
+        android:key="gesture_system_navigation"
+        android:title="@string/system_navigation_title"
+        android:summary="@string/system_navigation_summary"
+        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

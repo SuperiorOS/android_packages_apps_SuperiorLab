@@ -82,8 +82,14 @@
      <string name="cancel">Cancel</string>
      <string name="save">Save</string>
 
+     <!-- Sub category -->
+     <string name="general_category">General</string>
+
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
      <string name="aosp_gesture_summary">Stock gestures included with AOSP</string>
+
+     <!-- Navigation -->
+     <string name="system_navigation_summary">Configure navigation menus</string>
 
 </resources>
