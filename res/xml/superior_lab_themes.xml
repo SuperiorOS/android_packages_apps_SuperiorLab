@@ -24,34 +24,40 @@
         android:title="@string/theme_customization_category">
 
         <Preference
+            android:key="monet_engine"
+            android:title="@string/monet_engine_title"
+            android:summary="@string/monet_engine_summary"
+            android:fragment="com.superior.lab.fragments.MonetEngine" />
+
+        <Preference
             android:key="android.theme.customization.fonts"
             android:title="@string/theme_customization_font_title"
             android:summary="@string/theme_customization_font_summary"
-            android:fragment="com.superior.lab.fragments.FontsPicker"/>
+            android:fragment="com.superior.lab.fragments.FontsPicker" />
 
         <Preference
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"
             android:summary="@string/theme_customization_icon_pack_summary"
-            android:fragment="com.superior.lab.fragments.StatusbarIcons"/>
+            android:fragment="com.superior.lab.fragments.StatusbarIcons" />
 
         <Preference
             android:key="android.theme.customization.signal_icon"
             android:title="@string/theme_customization_signal_icon_title"
             android:summary="@string/theme_customization_signal_icon_summary"
-            android:fragment="com.superior.lab.fragments.SignalIcons"/>
+            android:fragment="com.superior.lab.fragments.SignalIcons" />
 
         <Preference
             android:key="android.theme.customization.wifi_icon"
             android:title="@string/theme_customization_wifi_icon_title"
             android:summary="@string/theme_customization_wifi_icon_summary"
-            android:fragment="com.superior.lab.fragments.WifiIcons"/>
+            android:fragment="com.superior.lab.fragments.WifiIcons" />
 
         <Preference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
-            android:fragment="com.superior.lab.fragments.IconShapes"/>
+            android:fragment="com.superior.lab.fragments.IconShapes" />
 
         <!-- Navbar Style -->
         <Preference
