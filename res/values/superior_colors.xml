@@ -14,4 +14,5 @@
      <color name="superior_background2">@android:color/system_neutral1_100</color>
      <color name="superior_background3">@android:color/system_accent1_400</color>
 
+     <color name="option_border_default">#5f6368</color>
 </resources>
