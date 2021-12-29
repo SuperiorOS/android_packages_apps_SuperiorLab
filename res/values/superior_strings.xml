@@ -84,6 +84,7 @@
 
      <!-- Sub category -->
      <string name="general_category">General</string>
+     <string name="statusbar_icons">Icons</string>
 
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
@@ -92,4 +93,7 @@
      <!-- Navigation -->
      <string name="system_navigation_summary">Configure navigation menus</string>
 
+     <!-- Statusbar Tuner -->
+     <string name="statusbar_items_title">Statusbar items</string>
+     <string name="statusbar_items_summary">Tune Statusbar items</string>
 </resources>
