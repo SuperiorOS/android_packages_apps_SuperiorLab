@@ -33,6 +33,7 @@
 
     <!-- Sub category -->
     <string name="general_category">General</string>
+    <string name="statusbar_icons">Icons</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -72,5 +73,9 @@
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_summary">Tune Statusbar items</string>
 
 </resources>

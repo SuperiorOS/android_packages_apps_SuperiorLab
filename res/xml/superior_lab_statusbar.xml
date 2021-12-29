@@ -27,4 +27,19 @@
         android:summary="@string/network_traffic_summary"
         android:fragment="com.superior.lab.fragments.NetworkTrafficSettings" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="icons_category"
+        android:title="@string/statusbar_icons">
+
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title"
+            android:summary="@string/statusbar_items_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
+
+        </PreferenceCategory>
 </PreferenceScreen>
