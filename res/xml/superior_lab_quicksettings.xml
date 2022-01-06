@@ -15,4 +15,32 @@
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
 
+     <PreferenceCategory
+          android:title="@string/qs_show_brightness_slider_title">
+
+          <!-- Brightness slider -->
+          <com.superior.support.preferences.SecureSettingListPreference
+               android:key="qs_show_brightness_slider"
+               android:title="@string/qs_show_brightness_slider_title"
+               android:entries="@array/qs_show_brightness_slider_entries"
+               android:entryValues="@array/qs_show_brightness_slider_values"
+               android:defaultValue="2" />
+
+          <com.superior.support.preferences.SecureSettingListPreference
+               android:key="qs_brightness_slider_position"
+               android:dependency="qs_show_brightness_slider"
+               android:title="@string/qs_brightness_slider_position_title"
+               android:entries="@array/qs_brightness_slider_position_entries"
+               android:entryValues="@array/qs_brightness_slider_position_values"
+               android:defaultValue="1" />
+
+          <com.superior.support.preferences.SecureSettingSwitchPreference
+               android:key="qs_show_auto_brightness"
+               android:dependency="qs_show_brightness_slider"
+               android:title="@string/qs_show_auto_brightness_title"
+               android:summary="@string/qs_show_auto_brightness_summary"
+               android:defaultValue="true" />
+
+     </PreferenceCategory>
+
 </PreferenceScreen>
