@@ -199,14 +199,29 @@
      <string name="use_photos_spoof_title">Unlimited Photos storage</string>
      <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
 
-      <!-- Volume button music control -->
-      <string name="volume_button_music_control_title">Playback control</string>
-      <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+     <!-- Volume button music control -->
+     <string name="volume_button_music_control_title">Playback control</string>
+     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 
-    <!-- Quick QS pulldown -->
-    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
-    <string name="quick_pulldown_none">Disabled</string>
-    <string name="quick_pulldown_right">Pulldown status bar from right side</string>
-    <string name="quick_pulldown_left">Pulldown status bar from left side</string>
-    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+     <!-- Quick QS pulldown -->
+     <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
+     <string name="quick_pulldown_none">Disabled</string>
+     <string name="quick_pulldown_right">Pulldown status bar from right side</string>
+     <string name="quick_pulldown_left">Pulldown status bar from left side</string>
+     <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
+
+     <!-- Quick Settings brightness slider -->
+     <string name="qs_show_brightness_slider_title">Brightness slider</string>
+     <string name="qs_show_brightness_slider_never">Never show</string>
+     <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
+     <string name="qs_show_brightness_slider_always">Show always</string>
+     <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
+     <string name="qs_brightness_slider_position_title">Position</string>
+     <string name="qs_brightness_slider_position_top">Top</string>
+     <string name="qs_brightness_slider_position_bottom">Bottom</string>
+
+     <!-- Quick Settings brightness icon -->
+     <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
+     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the
+          slider</string>
 </resources>
