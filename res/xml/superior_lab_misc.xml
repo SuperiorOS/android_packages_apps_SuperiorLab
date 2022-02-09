@@ -21,6 +21,12 @@
      <PreferenceCategory
         android:title="@string/general_category">
 
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" />
+
         <com.superior.support.preferences.SecureSettingSwitchPreference
             android:key="window_ignore_secure"
             android:title="@string/laboratory_ignore_window_secure_title"
