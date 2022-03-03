@@ -288,4 +288,8 @@
     <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
     <string name="vowifi_icon_style_title">VoWiFi icon style</string>
 
+    <!-- Screen off UDFPS -->
+    <string name="screen_off_udfps_title">Screen off UDFPS</string>
+    <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
+
 </resources>
