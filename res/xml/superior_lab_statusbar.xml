@@ -31,6 +31,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+        
+        <Preference
+            android:key="sbbatteryicons"
+            android:title="@string/status_bar_battery_style_title"
+            android:summary="@string/status_bar_battery_style_summary"
+            android:fragment="com.superior.lab.fragments.BatteryStyleSettings" />
 
     </PreferenceCategory>
 </PreferenceScreen>
