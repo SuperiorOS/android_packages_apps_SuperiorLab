@@ -37,6 +37,12 @@
                     android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
           </Preference>
 
+          <Preference
+              android:key="sbbatteryicons"
+              android:title="@string/status_bar_battery_style_title"
+              android:summary="@string/status_bar_battery_style_summary"
+              android:fragment="com.superior.lab.fragments.BatteryStyleSettings" />
+
           <com.superior.support.preferences.SystemSettingSwitchPreference
                android:key="data_disabled_icon"
                android:title="@string/data_disabled_icon_title"
