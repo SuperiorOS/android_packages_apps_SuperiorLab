@@ -239,4 +239,8 @@
      <string name="qs_show_data_usage_title">Show data usage</string>
      <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>    
+
 </resources>
