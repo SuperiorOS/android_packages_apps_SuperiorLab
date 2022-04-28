@@ -170,4 +170,9 @@
      <string name="lockscreen_enable_power_menu_title">Allow power menu on lockscreen</string>
      <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure
           lockscreen</string>
+
+     <!-- Data disabled icon -->
+     <string name="data_disabled_icon_title">Show data disabled icon</string>
+     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data
+          is disabled</string>
 </resources>
