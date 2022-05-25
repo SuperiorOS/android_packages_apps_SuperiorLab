@@ -276,4 +276,13 @@
     <string name="enable">Enable</string>
     <string name="disable">Disable</string>
 
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_hide">Hide VoWiFi icon</string>
+    <string name="vowifi_icon_show">Display VoWiFi icon</string>
+    <string name="vowifi_icon_over_volte">Display VoWiFi and hide VoLTE</string>
+
+    <!-- Show VoLTE switch -->
+    <string name="show_volte_title">VoLTE icon</string>
+    <string name="show_volte_summary">Display VoLTE icon</string>
 </resources>
