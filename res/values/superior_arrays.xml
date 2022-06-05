@@ -76,9 +76,9 @@
 
     <!-- VoWiFi Icon -->
     <string-array name="vowifi_icon_entries" translatable="false">
-        <item>@string/vowifi_icon_hide</item>
-        <item>@string/vowifi_icon_show</item>
-        <item>@string/vowifi_icon_over_volte</item>
+        <item>@string/vowifi_icon_disabled</item>
+        <item>@string/vowifi_icon_enabled</item>
+        <item>@string/vowifi_icon_enabled_volte_disabled</item>
     </string-array>
 
     <string-array name="vowifi_icon_values" translatable="false">
@@ -86,5 +86,5 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    
+
 </resources>
