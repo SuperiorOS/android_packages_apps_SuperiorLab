@@ -16,76 +16,98 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/superior_lab_title" >
+    android:title=" " >
+
+    <!-- Lottie Animation-->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="lab_animation"
+        android:layout="@layout/lab_lottie"
+        android:selectable="false" />
+
+    <!-- SuperiorLab Header -->
+    <PreferenceCategory
+        android:title="@string/superior_lab_title"
+        android:layout="@layout/superior_preference_category">
+    </PreferenceCategory>
 
         <!-- Status Bar -->
-        <PreferenceScreen
+        <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.superior.lab.fragments.StatusBarSettings" 
+            settings:layout="@layout/superior_dashboard_preference_top"
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Quick Settings panel -->
-        <PreferenceScreen
+        <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.superior.lab.fragments.QuickSettings"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
-        <PreferenceScreen
+        <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="com.superior.lab.fragments.ButtonSettings"
+            settings:layout="@layout/superior_dashboard_preference_top"
             android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
-        <PreferenceScreen
+        <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:fragment="com.superior.lab.fragments.NavbarSettings"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
-        <PreferenceScreen
+        <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title" 
             android:fragment="com.superior.lab.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+            settings:layout="@layout/superior_dashboard_preference_top"
+            android:icon="@drawable/ic_settings_sos_gestures"/>
 
         <!-- Lock Screen -->
-        <PreferenceScreen
+        <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
             android:fragment="com.superior.lab.fragments.LockScreenSettings"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
         <!-- Power Menu -->
-        <PreferenceScreen
+        <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title" 
             android:fragment="com.superior.lab.fragments.PowerMenuSettings"
+            settings:layout="@layout/superior_dashboard_preference_top"
             android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Recents -->
-        <PreferenceScreen
+        <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.superior.lab.fragments.RecentsSettings"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
             android:icon="@drawable/ic_settings_recents"/>
 
         <!-- Notifications -->
-        <PreferenceScreen
+        <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.superior.lab.fragments.NotificationSettings"
+            settings:layout="@layout/superior_dashboard_preference_top"
             android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Misc -->
-        <PreferenceScreen
+        <Preference
             android:key="misc_category"
             android:title="@string/misc_title" 
             android:fragment="com.superior.lab.fragments.MiscSettings"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
             android:icon="@drawable/ic_settings_miscs"/>
 
 </PreferenceScreen>
