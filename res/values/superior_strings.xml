@@ -78,4 +78,8 @@
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="statusbar_items_summary">Tune Statusbar items</string>
 
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+
 </resources>
