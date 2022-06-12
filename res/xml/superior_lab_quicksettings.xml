@@ -11,6 +11,12 @@
      <PreferenceCategory
           android:title="@string/general_category">
 
+          <com.superior.support.preferences.SecureSettingSwitchPreference
+               android:key="qs_show_data_usage"
+               android:title="@string/qs_show_data_usage_title"
+               android:summary="@string/qs_show_data_usage_summary"
+               android:defaultValue="true" />
+
           <ListPreference
                android:key="qs_quick_pulldown"
                android:title="@string/qs_quick_pulldown"
