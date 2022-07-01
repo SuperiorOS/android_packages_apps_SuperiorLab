@@ -18,4 +18,14 @@
     android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <PreferenceCategory
+        android:title="@string/general_category">
+
+        <com.superior.support.preferences.SecureSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:title="@string/laboratory_ignore_window_secure_title"
+            android:summary="@string/laboratory_ignore_window_secure_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
