@@ -22,8 +22,16 @@
         android:title="@string/general_category">
 
      <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+        android:title="@string/volume_rocker_wake_title"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:defaultValue="false"
+        android:disableDependentsState="true" />
+
+     <com.superior.support.preferences.SystemSettingSwitchPreference
         android:key="volbtn_music_controls"
         android:title="@string/volume_button_music_control_title"
+        android:dependency="volume_rocker_wake"
         android:summary="@string/volume_button_music_control_summary"
         android:defaultValue="false" />
 
