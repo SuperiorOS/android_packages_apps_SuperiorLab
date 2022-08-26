@@ -31,10 +31,21 @@
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
 
+    <!-- Sub category -->
+    <string name="general_category">General</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic indicator</string>
+    <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+    <string name="network_traffic_master_switch_title">Use Network Traffic Indicator</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
 
 </resources>
