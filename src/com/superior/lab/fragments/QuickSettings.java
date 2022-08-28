@@ -51,6 +51,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.superior_lab_quicksettings);
 
+        final Context mContext = getActivity().getApplicationContext();
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -76,6 +77,18 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             return true;
         }
         return false;
+    }
+
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_LAYOUT_COLUMNS_LANDSCAPE, 2, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_LAYOUT_COLUMNS, 2, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_TILE_VERTICAL_LAYOUT, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
     }
 
     @Override
