@@ -93,13 +93,13 @@
             settings:layout="@layout/superior_dashboard_preference_top"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Recents -->
+        <!-- Themes -->
         <Preference
-            android:key="recents_category"
-            android:title="@string/recents_title"
-            android:fragment="com.superior.lab.fragments.RecentsSettings"
+            android:key="themes"
+            android:fragment="com.superior.lab.fragments.ThemesSettings"
+            android:icon="@drawable/ic_settings_themes"
             settings:layout="@layout/superior_dashboard_preference_bottom"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:title="@string/themes_title" />
 
         <!-- Notifications -->
         <Preference
