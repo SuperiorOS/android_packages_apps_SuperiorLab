@@ -191,4 +191,8 @@
     <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
     <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
 
+    <!-- Show old style mobile data icon -->
+    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
+    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+
 </resources>
