@@ -17,8 +17,36 @@
 
     <!-- App Title -->
     <string name="superior_lab_title">Superior Lab</string>
+	
+    <!-- Dev Info -->
+    <string name="devs_header">Core Team</string>
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Founder/Developer</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev2_description">Lead Developer</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Developer</string>
+    <string name="dev_4">Adnan Faysal</string>
+    <string name="dev4_description">Graphic Designer</string>
+    <string name="dev_5">Arun</string>
+    <string name="dev5_description">Graphic Designer</string>
+    <string name="dev_6">Ahmed</string>
+    <string name="dev6_description">Web Developer</string>
+
+    <!-- Mentions -->
+    <string name="mentions_header">Honorable Mentions</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_iacob">Ionut Iacob</string>
+    <string name="mentions_iacob_description">UI/UX Developer</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Designer</string>
+
+    <!-- Team Title -->
+    <string name="superior_lab_team">Team SuperiorOS</string>
 
     <!-- Categories -->
+    <string name="team_title">About Team</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>

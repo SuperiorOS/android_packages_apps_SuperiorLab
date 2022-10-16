@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2022 The SuperiorOS
+     Copyright 2021 xdroid, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,10 +14,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-     <dimen name="superior_radius">28dp</dimen>
-     <dimen name="superior_radius_merge">5dp</dimen>
-     <dimen name="superior_pref_horizontal_padding">16dp</dimen>
-     <dimen name="superior_pref_horizontal_padding-negative">-16dp</dimen>
-     <dimen name="superior_pref_vertical_padding">32dp</dimen>
-</resources>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    style="@style/superiorDashboardPreferenceSingle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        layout="@layout/superior_dashboard_pref_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
