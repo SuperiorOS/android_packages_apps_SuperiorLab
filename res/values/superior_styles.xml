@@ -31,6 +31,10 @@
     </style>
 
     <!-- Dashboard -->
+    <style name="superiorDashboardPreferenceSingle" parent="superiorPreferenceSingle">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
     <style name="superiorDashboardPreferenceTop" parent="superiorPreferenceTop">
         <item name="android:layout_marginTop">@dimen/superior_pref_horizontal_padding</item>
     </style>
@@ -53,6 +57,11 @@
     </style>
 
     <!-- General -->
+    <style name="superiorPreferenceSingle" parent="superiorPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/superior_preference_background_single</item>
+    </style>
+
     <style name="superiorPreferenceBase">
         <item name="android:layout_marginStart">@dimen/superior_pref_horizontal_padding</item>
         <item name="android:layout_marginEnd">@dimen/superior_pref_horizontal_padding</item>

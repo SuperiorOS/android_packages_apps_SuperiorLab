@@ -30,6 +30,13 @@
         android:layout="@layout/superior_preference_category">
     </PreferenceCategory>
 
+        <Preference
+            android:key="team__category"
+            android:title="@string/team_title" 
+            android:fragment="com.superior.lab.fragments.SuperiorTeam"
+            android:icon="@drawable/ic_settings_team"
+            settings:layout="@layout/superior_dashboard_preference_single"/>
+
         <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
