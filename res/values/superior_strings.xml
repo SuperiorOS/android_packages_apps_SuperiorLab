@@ -45,6 +45,42 @@
     <!-- Team Title -->
     <string name="superior_lab_team">Team SuperiorOS</string>
 
+    <!-- Maintainer Info -->
+    <string name="maintainers_header">Maintainers</string>
+    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
+    <string name="device_google">Google</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
+    <string name="device_oneplus">Oneplus</string>
+    <string name="device_smartron">Smartron</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet | Nipin NA</string>
+    <string name="device_whyred">Redmi Note 5 Pro</string>
+    <string name="device_whyred_description">whyred | Sipun Ku Mahanta</string>
+    <string name="device_avicii">Nord</string>
+    <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
+    <string name="device_lisa">Mi 11 Lite NE 5G</string>
+    <string name="device_lisa_description">lisa | Mikdadali</string>
+    <string name="device_panther">Pixel 7</string>
+    <string name="device_panther_description">panther | Jayant Deshmukh</string>
+    <string name="device_lavender">Redmi Note 7/7s</string>
+    <string name="device_lavender_description">lavender | Ahmed Hridoy</string>
+    <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
+    <string name="device_alioth_description">alioth | Ashutosh Chettri</string>
+    <string name="device_lancelot">Redmi 9/Poco M2</string>
+    <string name="device_lancelot_description">lancelot | Soni Dharama</string>
+    <string name="device_merlinx">Redmi Note 9/Redmi 10X 4G</string>
+    <string name="device_merlinx_description">merlinx | Soni Dharama</string>
+    <string name="device_begonia">Redmi Note 8 Pro</string>
+    <string name="device_begonia_description">begonia | Ayush Singh</string>
+    <string name="device_spes">Redmi Note 11</string>
+    <string name="device_spes_description">spes | Daniel Enweazu</string>
+    <string name="device_sweet">Redmi Note 10 Pro</string>
+    <string name="device_sweet_description">sweet | Unsatifsed27</string>
+
     <!-- Categories -->
     <string name="team_title">About Team</string>
     <string name="button_title">Buttons</string>

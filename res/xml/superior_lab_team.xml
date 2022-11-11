@@ -139,4 +139,155 @@
             android:data="https://t.me/iacobionut" />
         </Preference>
 
+<PreferenceCategory
+            android:key="maintainer"
+            android:title="@string/maintainers_header" >
+			
+        <Preference
+            android:summary="@string/maintainers_header_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.github.com/SuperiorOS-Devices" />
+        </Preference>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_google" >
+
+    <Preference
+        android:key="maintainer_panther"
+        android:title="@string/device_panther"
+        android:summary="@string/device_panther_description"
+        settings:layout="@layout/superior_dashboard_preference_single"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/JD1811" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_oneplus" >
+
+    <Preference
+        android:key="maintainer_avicii"
+        android:title="@string/device_avicii"
+        android:summary="@string/device_avicii_description"
+        settings:layout="@layout/superior_dashboard_preference_single"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Darkstar085" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_xiaomi" >
+
+<Preference
+        android:key="maintainer_lisa"
+        android:title="@string/device_lisa"
+        android:summary="@string/device_lisa_description"
+        settings:layout="@layout/superior_dashboard_preference_top"
+        android:icon="@drawable/ic_devs_phone" >
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/ali_171821" />
+</Preference>
+<Preference
+        android:key="maintainer_alioth"
+        android:title="@string/device_alioth"
+        android:summary="@string/device_alioth_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Eidoron1" />
+</Preference>
+<Preference
+        android:key="maintainer_lancelot"
+        android:title="@string/device_lancelot"
+        android:summary="@string/device_lancelot_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+       android:action="android.intent.action.VIEW"
+       android:data="http://t.me/DreamersGo" />
+</Preference>
+<Preference
+        android:key="maintainer_whyred"
+        android:title="@string/device_whyred"
+        android:summary="@string/device_whyred_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Darkstar085" />
+</Preference>
+<Preference
+        android:key="maintainer_lavender"
+        android:title="@string/device_lavender"
+        android:summary="@string/device_lavender_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Apex_Not_Legend" />
+</Preference>
+<Preference
+        android:key="maintainer_violet"
+        android:title="@string/device_violet"
+        android:summary="@string/device_violet_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Joker_V2_0" />
+</Preference>
+<Preference
+        android:key="maintainer_begonia"
+        android:title="@string/device_begonia"
+        android:summary="@string/device_begonia_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/I_AM_ATOMIC" />
+    </Preference>
+<Preference
+        android:key="maintainer_merlinx"
+        android:title="@string/device_merlinx"
+        android:summary="@string/device_merlinx_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/DreamersGo" />
+</Preference>
+<Preference
+        android:key="maintainer_sweet"
+        android:title="@string/device_sweet"
+        android:summary="@string/device_sweet_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/Djampt" />
+</Preference>
+<Preference
+        android:key="maintainer_spes"
+        android:title="@string/device_spes"
+        android:summary="@string/device_spes_description"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/dandollar1" />
+</Preference>
+</PreferenceCategory>
+
 </PreferenceScreen>
