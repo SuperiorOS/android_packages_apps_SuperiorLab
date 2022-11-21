@@ -373,4 +373,14 @@
     <string name="monet_engine_tint_background_title">Tint background</string>
     <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
 
+    <!-- UDFPS settings -->
+    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_settings_title">UDFPS customization</string>
+    <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
 </resources>
