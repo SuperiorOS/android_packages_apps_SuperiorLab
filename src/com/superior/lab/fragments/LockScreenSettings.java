@@ -39,16 +39,19 @@ import android.hardware.fingerprint.FingerprintManager;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.superior.udfps.UdfpsUtils;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
         private static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
         private static final String FINGERPRINT_ERROR_VIB = "fingerprint_error_vib";
+        private static final String UDFPS_CATEGORY = "udfps_category";
 
         private FingerprintManager mFingerprintManager;
         private SwitchPreference mFingerprintSuccessVib;
         private SwitchPreference mFingerprintErrorVib;
+        private PreferenceCategory mUdfpsCategory;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -81,8 +84,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(mFingerprintSuccessVib);
             prefSet.removePreference(mFingerprintErrorVib);
         }
-    }
 
+        mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+        if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+            prefSet.removePreference(mUdfpsCategory);
+        }
+    }
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mFingerprintSuccessVib) {
