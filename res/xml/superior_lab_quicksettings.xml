@@ -40,6 +40,31 @@
             android:entries="@array/quick_pulldown_entries"
             android:entryValues="@array/quick_pulldown_values"
             android:defaultValue="1" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_user"
+            android:title="@string/qs_footer_users_icon_title"
+            android:summary="@string/qs_footer_users_icon_summary"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_edit"
+            android:title="@string/qs_footer_edit_icon_title"
+            android:summary="@string/qs_footer_edit_icon_summary"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_power_menu"
+            android:title="@string/qs_footer_show_power_menu_title"
+            android:summary="@string/qs_footer_show_power_menu_summary"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_show_settings"
+            android:title="@string/qs_footer_settings_icon_title"
+            android:summary="@string/qs_footer_settings_icon_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
