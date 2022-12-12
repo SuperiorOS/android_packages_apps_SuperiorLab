@@ -74,7 +74,6 @@
      <string name="quicksettings_title">Quick Settings</string>
      <string name="recents_title">Recents apps</string>
      <string name="statusbar_title">Status bar</string>
-     <string name="volume_title">Volume rockers</string>
      <string name="notifications_title">Notifications</string>
 
      <!-- General strings -->
