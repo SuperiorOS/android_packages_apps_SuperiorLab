@@ -80,6 +80,8 @@
     <string name="device_spes_description">spes | Daniel Enweazu</string>
     <string name="device_sweet">Redmi Note 10 Pro</string>
     <string name="device_sweet_description">sweet | Unsatifsed27</string>
+    <string name="device_raphael">Redmi K20 Pro</string>
+    <string name="device_raphael_description">raphael | Anirban</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
