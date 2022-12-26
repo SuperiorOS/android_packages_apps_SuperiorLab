@@ -154,4 +154,17 @@
         <item>3</item>
     </string-array>
 
+    <string-array name="qs_styles_entries" translatable="false">
+        <item>@string/default_string</item>
+        <item>@string/qs_outline</item>
+        <item>@string/qs_two_tone</item>
+        <item>@string/qs_shaded</item>
+    </string-array>
+
+    <string-array name="qs_styles_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

@@ -133,6 +133,7 @@
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+    <string name="default_string">Default</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic indicator</string>
@@ -439,5 +440,11 @@
     <string name="monet_engine_chroma_factor_summary">Higher values produce stronger colors</string>
     <string name="monet_engine_tint_background_title">Tint background</string>
     <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
+
+    <!-- Quick settings styles -->
+    <string name="qs_styles_title">QS Panel theme</string>
+    <string name="qs_outline">Outline</string>
+    <string name="qs_two_tone">Two-tone accent</string>
+    <string name="qs_shaded">Shaded</string>
 
 </resources>
