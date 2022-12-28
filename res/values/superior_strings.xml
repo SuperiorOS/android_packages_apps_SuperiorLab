@@ -58,12 +58,8 @@
     <string name="device_smartron">Smartron</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet | Nipin NA</string>
-    <string name="device_whyred">Redmi Note 5 Pro</string>
-    <string name="device_whyred_description">whyred | Sipun Ku Mahanta</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
-    <string name="device_lisa">Mi 11 Lite NE 5G</string>
-    <string name="device_lisa_description">lisa | Mikdadali</string>
     <string name="device_panther">Pixel 7</string>
     <string name="device_panther_description">panther | Jayant Deshmukh</string>
     <string name="device_lavender">Redmi Note 7/7s</string>
