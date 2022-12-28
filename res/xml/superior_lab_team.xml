@@ -189,16 +189,6 @@
         android:title="@string/device_xiaomi" >
 
 <Preference
-        android:key="maintainer_lisa"
-        android:title="@string/device_lisa"
-        android:summary="@string/device_lisa_description"
-        settings:layout="@layout/superior_dashboard_preference_top"
-        android:icon="@drawable/ic_devs_phone" >
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="https://t.me/ali_171821" />
-</Preference>
-<Preference
         android:key="maintainer_alioth"
         android:title="@string/device_alioth"
         android:summary="@string/device_alioth_description"
@@ -209,16 +199,6 @@
            android:data="http://t.me/Eidoron1" />
 </Preference>
 <Preference
-        android:key="maintainer_raphael"
-        android:title="@string/device_raphael"
-        android:summary="@string/device_raphael_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/SageOfD6Path" />
-</Preference>
-<Preference
         android:key="maintainer_lancelot"
         android:title="@string/device_lancelot"
         android:summary="@string/device_lancelot_description"
@@ -227,6 +207,16 @@
         <intent
        android:action="android.intent.action.VIEW"
        android:data="http://t.me/DreamersGo" />
+</Preference>
+<Preference
+        android:key="maintainer_raphael"
+        android:title="@string/device_raphael"
+        android:summary="@string/device_raphael_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/SageOfD6Path" />
 </Preference>
 <Preference
         android:key="maintainer_whyred"
