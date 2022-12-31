@@ -262,4 +262,12 @@
     <string name="screen_off_udfps_title">Screen off UDFPS</string>
     <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
 
+    <!-- Clock Settings -->
+    <string name="clock_style_category_title">Clock Settings</string>
+
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_title">Clock position</string>
 </resources>
