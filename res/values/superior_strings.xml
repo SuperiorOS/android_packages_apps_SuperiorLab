@@ -277,4 +277,8 @@
     <string name="status_bar_am_pm_small">Small</string>
     <string name="status_bar_am_pm_title">Clock AM/PM style</string>
     <string name="status_bar_am_pm_unavailable">24-hour clock is enabled</string>
+
+    <!-- Clock auto hide -->
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
 </resources>
