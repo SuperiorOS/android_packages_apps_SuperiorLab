@@ -42,7 +42,9 @@ import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+import android.text.format.DateFormat;
 import android.util.Log;
+import com.superior.support.preferences.SecureSettingListPreference;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -64,6 +66,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
     private int mBatteryPercentValue;
+
+    private static final String KEY_STATUS_BAR_AM_PM = "status_bar_am_pm";
+    private SecureSettingListPreference mStatusBarAmPm;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -91,6 +96,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mBatteryPercent.setEnabled(
                 batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
 
+        mStatusBarAmPm = findPreference(KEY_STATUS_BAR_AM_PM);
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        if (DateFormat.is24HourFormat(requireContext())) {
+            mStatusBarAmPm.setEnabled(false);
+            mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_unavailable);
+        }
     }
 
     @Override
