@@ -262,5 +262,13 @@
     <!-- DT2S on lockscreen-->
     <string name="double_tap_sleep_lockscreen_title">Lockscreen</string>
     <string name="double_tap_sleep_lockscreen_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
-    
+
+    <!-- Clock Settings -->
+    <string name="clock_style_category_title">Clock Settings</string>
+
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_title">Clock position</string>
 </resources>
