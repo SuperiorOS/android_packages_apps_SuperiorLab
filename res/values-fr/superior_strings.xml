@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Fondateur/Développeur</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev2_description">Développeur Principal</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Développeur</string>
+    <string name="dev_4">Adnan Faysal</string>
+    <string name="dev4_description">Designer graphique</string>
+    <string name="mentions_header">Mentions honorables</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_iacob">Ionut Iacob</string>
+    <string name="mentions_iacob_description">Développeur UI/UX</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Designer</string>
+    <string name="superior_lab_team">Equipe SuperiorOS</string>
+    <string name="maintainers_header">Mainteneurs</string>
+    <string name="maintainers_header_summary">Ce sont les mainteneurs officiels...</string>
+    <string name="device_google">Google</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
+    <string name="device_oneplus">OnePlus</string>
+    <string name="device_smartron">Smartron</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet | Nipin NA</string>
+    <string name="device_avicii">Nord</string>
+    <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
+    <string name="device_panther">Pixel 7</string>
+    <string name="device_panther_description">panther | Jayant Deshmukh</string>
+    <string name="device_lavender">Note Redmi 7/7s</string>
+    <string name="device_lavender_description">lavender | Ahmed Hridoy</string>
+    <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
+    <string name="device_alioth_description">alioth | Ashutosh Chettri</string>
+    <string name="device_lancelot">Redmi 9/Poco M2</string>
+    <string name="device_lancelot_description">lancelot | Soni Dharama</string>
+    <string name="device_merlinx">Note Redmi 9/Redmi 10X 4G</string>
+    <string name="device_merlinx_description">merlinx | Soni Dharama</string>
+    <string name="device_begonia">Redmi Note 8 Pro</string>
+    <string name="device_begonia_description">begonia | Ayush Singh</string>
+    <string name="team_title">À propos de l\'équipe</string>
+    <string name="button_title">Boutons</string>
+    <string name="gestures_title">Gestes</string>
+    <string name="lockscreen_title">Écran de verrouillage</string>
+    <string name="misc_title">Divers</string>
+    <string name="navbar_title">Barre de navigation</string>
+    <string name="powermenu_title">Menu d\'alimentation</string>
+    <string name="quicksettings_title">Réglages Rapides</string>
+    <string name="themes_title">Thèmes</string>
+    <string name="statusbar_title">Barre d\'État</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="general_category">Général</string>
+    <string name="statusbar_icons">Icônes</string>
+    <string name="ok">Ok</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Sauvegarder</string>
+    <string name="network_traffic_title">Indicateur de trafic réseau</string>
+    <string name="network_traffic_summary">Activer ou désactiver l\'indicateur de vitesse du réseau dans la barre d\'état</string>
+    <string name="network_traffic_master_switch_title">Utiliser l\'indicateur de trafic réseau</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Masquer l\'indicateur de trafic réseau si inactif</string>
+    <string name="network_traffic_autohide_summary">Masquer lorsque l\'indicateur de trafic réseau est inférieur à 1 Ko/s</string>
+    <string name="aosp_gesture_preference">Paramètres système</string>
+    <string name="statusbar_items_title">Éléments de la barre d\'État</string>
+    <string name="qs_footer_datausage_title">Utilisation des données</string>
+    <string name="enable_fingerprint_ripple_effect_title">Effet d\'ondulation</string>
+    <string name="show_fourg_icon_title">Icône 4G</string>
+    <string name="roaming_indicator_icon_title">Indicateur d\'itinérance</string>
+    <string name="theme_customization_font_summary">Définir le style de la police système</string>
+    <string name="theme_customization_icon_shape_title">Forme des icônes</string>
+    <string name="theme_customization_icon_shape_summary">Définir le style de forme des icônes système</string>
+    <string name="theme_customization_icon_pack_title">Pack d\'icônes</string>
+    <string name="theme_customization_icon_pack_summary">Définir le style du pack d\'icônes</string>
+    <string name="theme_customization_signal_icon_title">Style d\'icône de signal</string>
+    <string name="theme_customization_signal_icon_summary">Définir le style de l\'icône du signal réseau</string>
+    <string name="theme_customization_wifi_icon_title">Style d\'icône WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Définir le style de l\'icône du signal Wifi</string>
+    <string name="theme_customization_device_default">Valeur par défaut de l\'appareil</string>
+    <string name="theme_customization_navbar_title">Style de barre de navigation</string>
+    <string name="theme_customization_navbar_summary">Définir le style de la barre de navigation</string>
+    <string name="quick_settings_vibrate_title">Vibrer au touché</string>
+    <string name="quick_settings_vibrate_summary">Vibrer au toucher des tuiles des réglages rapides</string>
+    <string name="status_bar_battery_style_circle">Cercle</string>
+    <string name="status_bar_battery_style_dotted_circle">Cercle (Pointillé)</string>
+    <string name="status_bar_battery_style_filled_circle">Cercle (Rempli)</string>
+    <string name="status_bar_battery_style_big_circle">Grand cercle</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Grand cercle pointillé</string>
+    <string name="status_bar_battery_style_text">Texte</string>
+    <string name="status_bar_battery_style_hidden">Masqué</string>
+    <string name="status_bar_battery_percentage_title">Pourcentage de la batterie</string>
+    <string name="status_bar_battery_percentage_default">Masqué (Par défaut)</string>
+    <string name="status_bar_battery_percentage_text_inside">À l\'intérieur de l\'icône</string>
+    <string name="status_bar_battery_percentage_text_next">À côté de l\'icône</string>
+    <string name="qs_show_brightness_slider_title">Curseur de luminosité</string>
+    <string name="qs_show_brightness_slider_never">Ne jamais afficher</string>
+    <string name="qs_show_brightness_slider_expanded">Montrer quand étendu</string>
+    <string name="qs_show_brightness_slider_always">Toujours afficher</string>
+    <string name="qs_show_brightness_slider_not_expanded">Afficher quand non étendu</string>
+    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_top">En haut</string>
+    <string name="qs_brightness_slider_position_bottom">En bas</string>
+    <string name="qs_show_auto_brightness_title">Icône de luminosité automatique</string>
+    <string name="double_tap_sleep_gesture_title">Barre d\'état</string>
+    <string name="double_tap_sleep_lockscreen_title">Ecran de vérouillage</string>
+    <string name="enable">Activer</string>
+    <string name="disable">Désactiver</string>
+    <string name="vowifi_icon_title">Icône VoWiFi</string>
+</resources>

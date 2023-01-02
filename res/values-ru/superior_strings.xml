@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 SuperiorOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_lab_title">Настройки Superior</string>
+    <string name="devs_header">Основная команда</string>
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Основатель/Разработчик</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev2_description">Ведущий разработчик</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Разработчик</string>
+    <string name="dev_4">Adnan Faysal</string>
+    <string name="dev4_description">Графический дизайнер</string>
+    <string name="mentions_header">Важные замечания</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">Дизайнер</string>
+    <string name="mentions_iacob">Ionut Iacob</string>
+    <string name="mentions_iacob_description">Разработчик UI/UX</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Дизайнер</string>
+    <string name="superior_lab_team">Команда SuperiorOS</string>
+    <string name="maintainers_header">Сопровождающий</string>
+    <string name="maintainers_header_summary">Это официальные сопровождающие устройств...</string>
+    <string name="device_google">Googlе</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
+    <string name="device_oneplus">Oneplus</string>
+    <string name="device_smartron">Smartron</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet | Nipin NA</string>
+    <string name="device_avicii">Nord</string>
+    <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
+    <string name="device_panther">Pixel 7</string>
+    <string name="device_panther_description">panther | Jayant Deshmukh</string>
+    <string name="device_lavender">Redmi Note 7/7s</string>
+    <string name="device_lavender_description">lavender | Ahmed Hridoy</string>
+    <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
+    <string name="device_alioth_description">alioth | Ashutosh Chettri</string>
+    <string name="device_lancelot">Redmi 9/Poco M2</string>
+    <string name="device_lancelot_description">lancelot | Soni Dharama</string>
+    <string name="device_merlinx">Redmi Note 9/Redmi 10X 4G</string>
+    <string name="device_merlinx_description">merlinx | Soni Dharama</string>
+    <string name="device_begonia">Redmi Note 8 Pro</string>
+    <string name="device_begonia_description">begonia | Ayush Singh</string>
+    <string name="team_title">О команде</string>
+    <string name="button_title">Кнопки</string>
+    <string name="fingerprint_category">Отпечаток пальцев</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="lockscreen_title">Блокировка экрана</string>
+    <string name="misc_title">Разное</string>
+    <string name="navbar_title">Панель навигации</string>
+    <string name="powermenu_title">Меню питания</string>
+    <string name="quicksettings_title">Быстрые настройки</string>
+    <string name="themes_title">Темы</string>
+    <string name="statusbar_title">Строка состояния</string>
+    <string name="notifications_title">Уведомления</string>
+    <string name="general_category">Общее</string>
+    <string name="statusbar_icons">Значки</string>
+    <string name="dtts_category_header">Двойное нажатие для сна</string>
+    <string name="ok">OK</string>
+    <string name="reset">Сброс</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="network_traffic_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_summary">Включить или отключить индикатор скорости сети в строке состояния</string>
+    <string name="network_traffic_master_switch_title">Использовать индикатор сетевого трафика</string>
+    <string name="network_options_title">Опции</string>
+    <string name="network_traffic_autohide_title">Скрыть индикатор сетевого трафика, если он неактивен</string>
+    <string name="network_traffic_autohide_summary">Скрывать, когда индикатор сетевого трафика ниже 1 КБ/с</string>
+    <string name="aosp_gesture_preference">Системные настройки</string>
+    <string name="aosp_gesture_summary">Стандартные жесты, включенные в AOSP</string>
+    <string name="system_navigation_summary">Настроить меню навигации</string>
+    <string name="three_finger_gesture">Жест тремя пальцами</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
+    <string name="notification_sound_vib_screen_on_title">Нежелательные уведомления</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизведение звука и вибрации для уведомлений при включенном экране</string>
+    <string name="global_actions_advanced_reboot_title">Включить расширенный перезапуск</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры рекавери и загрузчика в меню питания</string>
+    <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при разъединении</string>
+    <string name="statusbar_items_title">Элементы строки состояния</string>
+    <string name="statusbar_items_summary">Настроить элементы строки состояния</string>
+    <string name="qs_footer_datausage_title">Использование данных</string>
+    <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
+    <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показывать эффект волны при разблокировке с помощью отпечатка пальца</string>
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости переключает музыкальные треки</string>
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Показывать значок 4G вместо LTE</string>
+    <string name="data_disabled_icon_title">Значок отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крестик у значка сети, когда передача данных отключена</string>
+    <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга рядом со значком сети при нахождении в роуминге</string>
+    <string name="volume_rocker_wake_title">Пробуждение громкостью</string>
+    <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
+    <string name="theme_customization_category">Оформление</string>
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <string name="theme_customization_font_summary">Установить стиль системного шрифта</string>
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
+    <string name="theme_customization_icon_shape_summary">Установить стиль формы значка системы</string>
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
+    <string name="theme_customization_icon_pack_summary">Установить пользовательский стиль набора значков</string>
+    <string name="theme_customization_signal_icon_title">Стиль значка сигнала</string>
+    <string name="theme_customization_signal_icon_summary">Установить пользовательский стиль значка сигнала</string>
+    <string name="theme_customization_wifi_icon_title">Стиль значка WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Установить пользовательский стиль значка wifi</string>
+    <string name="theme_customization_device_default">Устройство по умолчанию</string>
+    <string name="theme_customization_navbar_title">Стиль панели навигации</string>
+    <string name="theme_customization_navbar_summary">Установить пользовательский стиль панели навигации</string>
+    <string name="laboratory_ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="laboratory_ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются черными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу.</string>
+    <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+    <string name="lockscreen_battery_info_summary">Показывать напряжение, ток зарядки и температуру аккумулятора на экране блокировки во время зарядки</string>
+    <string name="use_old_mobiletype_title">Использовать старый стиль значков сети</string>
+    <string name="use_old_mobiletype_summary">Показывать значок мобильной сети над индикатором сигнала</string>
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
+    <string name="fprint_error_vib_title">Вибрация при сбое авторизации отпечатком пальца</string>
+    <string name="fprint_error_vib_summary">Вибрировать при ошибке распознавания отпечатка пальца</string>
+    <string name="fprint_success_vib_title">Вибрация распознавания отпечатка пальца</string>
+    <string name="fprint_success_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_percentage_title">Процент батареи</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+    <string name="notifications_category_title">Защита от надоедливых уведомлений</string>
+    <string name="less_boring_heads_up_title">Сделать всплывающие уведомления менее надоедливыми</string>
+    <string name="less_boring_heads_up_summary">Показать всплывающие уведомления только для звонков или сообщений, если они не на переднем плане</string>
+    <string name="qs_show_brightness_slider_title">Ползунок яркости</string>
+    <string name="qs_show_brightness_slider_never">Не показывать</string>
+    <string name="qs_show_brightness_slider_expanded">Показать при раскрытии</string>
+    <string name="qs_show_brightness_slider_always">Всегда показывать</string>
+    <string name="qs_show_brightness_slider_not_expanded">Показывать, когда не развёрнуто</string>
+    <string name="qs_brightness_slider_position_title">Положение</string>
+    <string name="qs_brightness_slider_position_top">Вверху</string>
+    <string name="qs_brightness_slider_position_bottom">Внизу</string>
+    <string name="qs_show_auto_brightness_title">Значок авто-яркости</string>
+    <string name="qs_show_auto_brightness_summary">Показывать переключатель для адаптивной регулировки яркости</string>
+    <string name="double_tap_sleep_gesture_title">Строка состояния</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="vowifi_icon_title">Значок VoWiFi</string>
+</resources>
