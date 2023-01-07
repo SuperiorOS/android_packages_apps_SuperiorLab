@@ -60,8 +60,8 @@
     <string name="device_violet_description">violet | Nipin NA</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
-    <string name="device_panther">Pixel 7</string>
-    <string name="device_panther_description">panther | Jayant Deshmukh</string>
+    <string name="device_pantah">Pixel 7/7p</string>
+    <string name="device_pantah_description">panther | cheetah | Jayant Deshmukh</string>
     <string name="device_lavender">Redmi Note 7/7s</string>
     <string name="device_lavender_description">lavender | Ahmed Hridoy</string>
     <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
