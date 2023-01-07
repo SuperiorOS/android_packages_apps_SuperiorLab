@@ -157,9 +157,9 @@
         android:title="@string/device_google" >
 
     <Preference
-        android:key="maintainer_panther"
-        android:title="@string/device_panther"
-        android:summary="@string/device_panther_description"
+        android:key="maintainer_pantah"
+        android:title="@string/device_pantah"
+        android:summary="@string/device_pantah_description"
         settings:layout="@layout/superior_dashboard_preference_single"
         android:icon="@drawable/ic_devs_phone">
         <intent
