@@ -49,11 +49,10 @@
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
             android:dependency="lockscreen_media_metadata"
-            android:max="100"
-            settings:min="0"
-            settings:units="%"
-            settings:interval="5"
-            android:defaultValue="100" />
+            android:max="25"
+            android:min="0"
+            android:defaultValue="25"
+            settings:units="dp" />
 
     </PreferenceCategory>
 
