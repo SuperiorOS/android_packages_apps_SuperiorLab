@@ -229,6 +229,16 @@
            android:data="http://t.me/Anant_Goel" />
 </Preference>
 <Preference
+        android:key="maintainer_RMX1851"
+        android:title="@string/device_RMX1851"
+        android:summary="@string/device_RMX1851_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Noobie_ashwani" />
+<Preference>
+<Preference
         android:key="maintainer_lavender"
         android:title="@string/device_lavender"
         android:summary="@string/device_lavender_description"

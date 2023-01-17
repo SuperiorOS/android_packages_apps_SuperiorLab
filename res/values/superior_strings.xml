@@ -80,6 +80,8 @@
     <string name="device_raphael_description">raphael | Anirban</string>
     <string name="device_veux">Redmi Note 11 Pro+/Poco X4 Pro</string>
     <string name="device_veux_description">Veux/Peux | Anant_Goel</string>
+    <string name="device_RMX1851">Realme 3 pro</string>
+    <string name="device_RMX1851_description">RMX1851 | Ashwani212</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
