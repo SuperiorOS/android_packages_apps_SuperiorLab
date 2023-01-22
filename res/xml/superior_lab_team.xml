@@ -192,7 +192,7 @@
         android:key="maintainer_alioth"
         android:title="@string/device_alioth"
         android:summary="@string/device_alioth_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
+        settings:layout="@layout/superior_dashboard_preference_top"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
@@ -217,16 +217,6 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/SageOfD6Path" />
-</Preference>
-<Preference
-        android:key="maintainer_veux"
-        android:title="@string/device_veux"
-        android:summary="@string/device_veux_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Anant_Goel" />
 </Preference>
 <Preference
         android:key="maintainer_lavender"
@@ -282,11 +272,21 @@
         android:key="maintainer_spes"
         android:title="@string/device_spes"
         android:summary="@string/device_spes_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
+        settings:layout="@layout/superior_dashboard_preference_middle"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
            android:data="https://t.me/dandollar1" />
+</Preference>
+<Preference
+        android:key="maintainer_veux"
+        android:title="@string/device_veux"
+        android:summary="@string/device_veux_description"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Anant_Goel" />
 </Preference>
 </PreferenceCategory>
 
