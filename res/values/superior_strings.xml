@@ -351,4 +351,10 @@
     <string name="use_photos_spoof_title">Unlimited Photos storage</string>
     <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
 
+    <!-- Quick QS pulldown -->
+    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
+    <string name="quick_pulldown_none">Disabled</string>
+    <string name="quick_pulldown_right">Pulldown status bar from right side</string>
+    <string name="quick_pulldown_left">Pulldown status bar from left side</string>
+    <string name="quick_pulldown_always">Always show quick settings on status bar pull down</string>
 </resources>
