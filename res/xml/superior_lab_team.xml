@@ -170,6 +170,22 @@
 
 <PreferenceCategory
         android:key="maintainer"
+        android:title="@string/device_nothing" >
+
+    <Preference
+        android:key="maintainer_spacewar"
+        android:title="@string/device_spacewar"
+        android:summary="@string/device_spacewar_description"
+        settings:layout="@layout/superior_dashboard_preference_single"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/OptimussPriime" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
         android:title="@string/device_oneplus" >
 
     <Preference
