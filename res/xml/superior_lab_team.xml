@@ -275,6 +275,16 @@
            android:data="https://t.me/DreamersGo" />
 </Preference>
 <Preference
+        android:key="maintainer_miatoll"
+        android:title="@string/device_miatoll"
+        android:summary="@string/device_miatoll_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/CRUECY" />
+</Preference>
+<Preference
         android:key="maintainer_sweet"
         android:title="@string/device_sweet"
         android:summary="@string/device_sweet_description"
@@ -303,16 +313,6 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Anant_Goel" />
-</Preference>
-<Preference
-        android:key="maintainer_miatoll"
-        android:title="@string/device_miatoll"
-        android:summary="@string/device_miatoll_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="https://t.me/CRUECY" />
 </Preference>
 </PreferenceCategory>
 
