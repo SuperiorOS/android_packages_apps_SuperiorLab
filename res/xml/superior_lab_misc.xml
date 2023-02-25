@@ -47,12 +47,5 @@
             android:summary="@string/use_photos_spoof_summary"
             android:defaultValue="true" />
 
-        <!-- Netflix -->
-        <SwitchPreference
-            android:key="use_netflix_spoof"
-            android:title="@string/netflix_spoof_title"
-            android:summary="@string/netflix_spoof_summary"
-            android:defaultValue="false" />
-
     </PreferenceCategory>
 </PreferenceScreen>
