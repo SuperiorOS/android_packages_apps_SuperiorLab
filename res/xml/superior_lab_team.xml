@@ -305,6 +305,16 @@
            android:data="https://t.me/dandollar1" />
 </Preference>
 <Preference
+        android:key="maintainer_venus"
+        android:title="@string/device_venus"
+        android:summary="@string/device_venus_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/miwu04" />
+</Preference>
+<Preference
         android:key="maintainer_veux"
         android:title="@string/device_veux"
         android:summary="@string/device_veux_description"
