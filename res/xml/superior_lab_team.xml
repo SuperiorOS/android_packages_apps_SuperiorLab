@@ -225,6 +225,16 @@
        android:data="http://t.me/DreamersGo" />
 </Preference>
 <Preference
+        android:key="maintainer_davinci"
+        android:title="@string/device_davinci"
+        android:summary="@string/device_davinci_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+          android:action="android.intent.action.VIEW"
+          android:data="http://t.me/SILENT_KILLER404" />
+</Preference>
+<Preference
         android:key="maintainer_raphael"
         android:title="@string/device_raphael"
         android:summary="@string/device_raphael_description"
