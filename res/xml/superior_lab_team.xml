@@ -180,7 +180,7 @@
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
-           android:data="http://t.me/OptimussPriime" />
+           android:data="http://t.me/Vikas_2_0" />
     </Preference>
 </PreferenceCategory>
 
