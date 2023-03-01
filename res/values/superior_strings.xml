@@ -63,6 +63,10 @@
     <string name="device_spacewar_description">spacewar | Vikas Yaduvanshi</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
+    <string name="device_enchilada">Oneplus 6</string>
+    <string name="device_enchilada_description">enchilada | Vikas Yaduvanshi</string>
+    <string name="device_fajita">Oneplus 6T</string>
+    <string name="device_fajita_description">fajita | Vikas Yaduvanshi</string>
     <string name="device_pantah">Pixel 7/7p</string>
     <string name="device_pantah_description">panther | cheetah | Jayant Deshmukh</string>
     <string name="device_lavender">Redmi Note 7/7s</string>
