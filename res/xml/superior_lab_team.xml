@@ -198,6 +198,28 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Darkstar085" />
     </Preference>
+    
+    <Preference
+        android:key="maintainer_enchilada"
+        android:title="@string/device_enchilada"
+        android:summary="@string/device_enchilada_description"
+        settings:layout="@layout/superior_dashboard_preference_single"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Vikas_2_0" />
+    </Preference>
+    
+    <Preference
+        android:key="maintainer_fajita"
+        android:title="@string/device_fajita"
+        android:summary="@string/device_fajita_description"
+        settings:layout="@layout/superior_dashboard_preference_single"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Vikas_2_0" />
+    </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
