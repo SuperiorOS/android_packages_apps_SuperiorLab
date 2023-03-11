@@ -91,6 +91,8 @@
     <string name="device_miatoll_description">miatoll | ARINDAM BHATTACHARJEE</string>
     <string name="device_venus">Mi 11</string>
     <string name="device_venus_description">venus | Alan Lin</string>
+    <string name="device_dubai">Moto Edge 30</string>
+    <string name="device_dubai_description">dubai | Jayant Deshmukh</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
