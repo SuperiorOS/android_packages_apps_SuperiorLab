@@ -45,13 +45,10 @@ import com.android.settings.SettingsPreferenceFragment;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String KEY_GAMES_SPOOF = "use_games_spoof";
     private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
 
-    private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
 
-    private SwitchPreference mGamesSpoof;
     private SwitchPreference mPhotosSpoof;
 
     @Override
@@ -61,10 +58,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.superior_lab_misc);
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        mGamesSpoof = (SwitchPreference) prefScreen.findPreference(KEY_GAMES_SPOOF);
-        mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, false));
-        mGamesSpoof.setOnPreferenceChangeListener(this);
-
         mPhotosSpoof = (SwitchPreference) prefScreen.findPreference(KEY_PHOTOS_SPOOF);
         mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
         mPhotosSpoof.setOnPreferenceChangeListener(this);
@@ -72,11 +65,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mGamesSpoof) {
-            boolean value = (Boolean) objValue;
-            SystemProperties.set(SYS_GAMES_SPOOF, value ? "true" : "false");
-            return true;
-        } else if (preference == mPhotosSpoof) {
+        if (preference == mPhotosSpoof) {
             boolean value = (Boolean) objValue;
             SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
             return true;
