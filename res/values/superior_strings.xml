@@ -101,4 +101,9 @@
      <string name="lockscreen_weather_location_summary">Display current weather location</string>
      <string name="lockscreen_weather_text_title">Current condition</string>
      <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+
+    <!-- Double tap status bar to sleep -->
+    <string name="dtts_category_header">Double tap to sleep</string>
+    <string name="double_tap_to_sleep_title">Statusbar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
 </resources>
