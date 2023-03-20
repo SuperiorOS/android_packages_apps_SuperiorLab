@@ -97,6 +97,7 @@
     <!-- Sub category -->
     <string name="general_category">General</string>
     <string name="statusbar_icons">Icons</string>
+    <string name="dtts_category_header">Double tap to sleep</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -225,4 +226,7 @@
     <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 
+    <!-- Double tap status bar to sleep -->
+    <string name="double_tap_to_sleep_title">Statusbar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
 </resources>
