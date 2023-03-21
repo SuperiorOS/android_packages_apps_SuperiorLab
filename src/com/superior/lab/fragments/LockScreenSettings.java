@@ -47,8 +47,9 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.superior_lab_lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        final PreferenceScreen prefSet = getPreferenceScreen();
 
     }
 
