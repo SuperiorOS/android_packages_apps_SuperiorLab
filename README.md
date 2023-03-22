@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://user-images.githubusercontent.com/29405483/210081979-c4aca479-02d4-41ec-bc75-3cd6f222b90e.png" />
+</p>
+
 What is SuperiorLab:
 ------------------------
 
