@@ -198,4 +198,19 @@
      <string name="clock_date_position">Date position</string>
      <string name="clock_date_right">Right of time</string>
      <string name="clock_date_left">Left of time</string>
+
+     <!-- Network traffic -->
+     <string name="network_traffic_intro_text">
+          Shows current network traffic speed in the status bar.
+          The monitor shows the speed dynamically such that it alternates between
+          upload and download speed each second.
+     </string>
+     <string name="network_traffic_category_title">Network monitor</string>
+     <string name="network_traffic_title">Network traffic indicator</string>
+     <string name="network_traffic_summary">Enable or disable network speed indicator in status bar</string>
+     <string name="network_traffic_main_switch_title">Use Network traffic indicator</string>
+     <string name="network_options_title">Options</string>
+     <string name="network_traffic_autohide_title">Hide network traffic indicator if inactive</string>
+     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1
+          KB/s</string>
 </resources>
