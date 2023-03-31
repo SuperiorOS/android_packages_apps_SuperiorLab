@@ -176,11 +176,21 @@
         android:key="maintainer_dubai"
         android:title="@string/device_dubai"
         android:summary="@string/device_dubai_description"
-        settings:layout="@layout/superior_dashboard_preference_single"
+        settings:layout="@layout/superior_dashboard_preference_top"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/JD1811" />
+    </Preference>
+    <Preference
+        android:key="maintainer_payton"
+        android:title="@string/device_payton"
+        android:summary="@string/device_payton_description"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/cool585" />
     </Preference>
 </PreferenceCategory>
 
