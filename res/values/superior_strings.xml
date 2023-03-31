@@ -96,6 +96,8 @@
     <string name="device_venus_description">venus | Alan Lin</string>
     <string name="device_dubai">Moto Edge 30</string>
     <string name="device_dubai_description">dubai | Jayant Deshmukh</string>
+    <string name="device_payton">Moto X4</string>
+    <string name="device_payton_description">payton | Dhinesh Cool</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
