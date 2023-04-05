@@ -40,5 +40,11 @@
             android:summary="@string/use_photos_spoof_summary"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="omnijaws_settings"
+            android:title="@string/qs_weather_settings_title"
+            android:summary="@string/qs_weather_settings_summary"
+            android:fragment="com.superior.lab.fragments.OmniJawsSettings" />
+
     </PreferenceCategory>
 </PreferenceScreen>
