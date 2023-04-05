@@ -33,5 +33,11 @@
             android:summary="@string/laboratory_ignore_window_secure_summary"
             android:defaultValue="false"/>
 
+        <Preference
+            android:key="omnijaws_settings"
+            android:title="@string/qs_weather_settings_title"
+            android:summary="@string/qs_weather_settings_summary"
+            android:fragment="com.superior.lab.fragments.OmniJawsSettings" />
+
     </PreferenceCategory>
 </PreferenceScreen>
