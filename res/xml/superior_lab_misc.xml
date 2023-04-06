@@ -39,6 +39,12 @@
             android:title="@string/use_photos_spoof_title"
             android:summary="@string/use_photos_spoof_summary"
             android:defaultValue="true" />
+            
+       <com.superior.support.preferences.SecureSettingSwitchPreference
+           android:key="games_device_spoof"
+           android:title="@string/games_device_spoof_title"
+           android:summary="@string/games_device_spoof_summary"
+           android:defaultValue="false"/>
 
     </PreferenceCategory>
 </PreferenceScreen>
