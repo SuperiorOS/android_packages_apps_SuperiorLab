@@ -98,6 +98,10 @@
     <string name="device_dubai_description">dubai | Jayant Deshmukh</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton | Dhinesh Cool</string>
+    <string name="device_lisa">Xiaomi 11 Lite NE 5G</string>
+    <string name="device_lisa_description">lisa | Saikiran</string>
+    <string name="device_nabu">Xiaomi Pad 5</string>
+    <string name="device_nabu_description">nabu | Saikiran</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
