@@ -381,11 +381,31 @@
         android:key="maintainer_veux"
         android:title="@string/device_veux"
         android:summary="@string/device_veux_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
+        settings:layout="@layout/superior_dashboard_preference_middle"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Anant_Goel" />
+</Preference>
+<Preference
+        android:key="maintainer_lisa"
+        android:title="@string/device_lisa"
+        android:summary="@string/device_lisa_description"
+        settings:layout="@layout/superior_dashboard_preference_middle"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Saikiran008" />
+</Preference>
+<Preference
+        android:key="maintainer_nabu"
+        android:title="@string/device_nabu"
+        android:summary="@string/device_nabu_description"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Saikiran008" />
 </Preference>
 </PreferenceCategory>
 
