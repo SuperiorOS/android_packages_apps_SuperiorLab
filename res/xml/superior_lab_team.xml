@@ -252,10 +252,21 @@
         android:title="@string/device_realme" >
 
     <Preference
+        android:key="maintainer_RMX2020"
+        android:title="@string/device_RMX2020"
+        android:summary="@string/device_RMX2020_description"
+        settings:layout="@layout/superior_dashboard_preference_top"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/WillyS69" />
+    </Preference>
+
+    <Preference
         android:key="maintainer_RMX3461"
         android:title="@string/device_RMX3461"
         android:summary="@string/device_RMX3461_description"
-        settings:layout="@layout/superior_dashboard_preference_single"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
@@ -407,16 +418,6 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Saikiran008" />
 </Preference>
-<Preference
-        android:key="maintainer_RMX2020"
-        android:title="@string/device_RMX2020"
-        android:summary="@string/device_RMX2020_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/WillyS69" />
- </Preference>          
 </PreferenceCategory>
 
 </PreferenceScreen>
