@@ -102,6 +102,9 @@
     <string name="device_lisa_description">lisa | Saikiran</string>
     <string name="device_nabu">Xiaomi Pad 5</string>
     <string name="device_nabu_description">nabu | Saikiran</string>
+    <string name="device_RMX2020">Realme C3/Narzo10A</string>
+    <string name="device_RMX2020_description">RMX2020/2027 | Willy S</string>
+
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
