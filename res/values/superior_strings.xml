@@ -104,7 +104,8 @@
     <string name="device_nabu_description">nabu | Saikiran</string>
     <string name="device_RMX2020">Realme C3/Narzo10A</string>
     <string name="device_RMX2020_description">RMX2020/2027 | Willy S</string>
-
+    <string name="device_munch">Poco F4/Redmi K40s</string>
+    <string name="device_munch_description">munch | Mudit1808</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
