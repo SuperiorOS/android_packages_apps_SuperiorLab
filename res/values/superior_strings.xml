@@ -106,6 +106,8 @@
     <string name="device_RMX2020_description">RMX2020/2027 | Willy S</string>
     <string name="device_munch">Poco F4/Redmi K40s</string>
     <string name="device_munch_description">munch | Mudit1808</string>
+    <string name="device_rmx3371">realme GT NEO 3T</string>
+    <string name="device_rmx3371_description">rmx3371 | Provasishh</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
