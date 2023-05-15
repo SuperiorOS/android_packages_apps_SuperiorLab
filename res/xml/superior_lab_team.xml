@@ -320,16 +320,6 @@
            android:data="http://t.me/SageOfD6Path" />
 </Preference>
 <Preference
-        android:key="maintainer_lavender"
-        android:title="@string/device_lavender"
-        android:summary="@string/device_lavender_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Apex_Not_Legend" />
-</Preference>
-<Preference
         android:key="maintainer_violet"
         android:title="@string/device_violet"
         android:summary="@string/device_violet_description"
