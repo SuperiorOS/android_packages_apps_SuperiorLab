@@ -70,8 +70,6 @@
     <string name="device_fajita_description">fajita | Vikas Yaduvanshi</string>
     <string name="device_pantah">Pixel 7/7p</string>
     <string name="device_pantah_description">panther | cheetah | Jayant Deshmukh</string>
-    <string name="device_lavender">Redmi Note 7/7s</string>
-    <string name="device_lavender_description">lavender | Ahmed Hridoy</string>
     <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
     <string name="device_alioth_description">alioth | Ashutosh Chettri</string>
     <string name="device_lancelot">Redmi 9/Poco M2</string>
