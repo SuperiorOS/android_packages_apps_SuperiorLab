@@ -192,7 +192,7 @@ public class DataStyles extends SettingsPreferenceFragment {
 
     public Drawable getDrawable(Context context, String pkg, String drawableName) {
         if (pkg.equals("com.android.systemui"))
-            pkg = "com.android.settingslib";
+            pkg = "com.android.settings";
         try {
             PackageManager pm = context.getPackageManager();
             Resources res = pm.getResourcesForApplication(pkg);
