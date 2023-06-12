@@ -157,9 +157,9 @@
         android:title="@string/device_google" >
 
     <Preference
-        android:key="maintainer_pantah"
-        android:title="@string/device_pantah"
-        android:summary="@string/device_pantah_description"
+        android:key="maintainer_panther"
+        android:title="@string/device_panther"
+        android:summary="@string/device_panther_description"
         settings:layout="@layout/superior_dashboard_preference_single"
         android:icon="@drawable/ic_devs_phone">
         <intent
@@ -172,16 +172,6 @@
         android:key="maintainer"
         android:title="@string/device_motorola" >
 
-    <Preference
-        android:key="maintainer_dubai"
-        android:title="@string/device_dubai"
-        android:summary="@string/device_dubai_description"
-        settings:layout="@layout/superior_dashboard_preference_top"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/JD1811" />
-    </Preference>
     <Preference
         android:key="maintainer_payton"
         android:title="@string/device_payton"

@@ -68,8 +68,8 @@
     <string name="device_enchilada_description">enchilada | Vikas Yaduvanshi</string>
     <string name="device_fajita">Oneplus 6T</string>
     <string name="device_fajita_description">fajita | Vikas Yaduvanshi</string>
-    <string name="device_pantah">Pixel 7/7p</string>
-    <string name="device_pantah_description">panther | cheetah | Jayant Deshmukh</string>
+    <string name="device_panther">Pixel 7</string>
+    <string name="device_panther_description">panther | Jayant Deshmukh</string>
     <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
     <string name="device_alioth_description">alioth | Ashutosh Chettri</string>
     <string name="device_lancelot">Redmi 9/Poco M2</string>
@@ -92,8 +92,6 @@
     <string name="device_miatoll_description">miatoll | ARINDAM BHATTACHARJEE</string>
     <string name="device_venus">Xiaomi Mi 11</string>
     <string name="device_venus_description">venus | Alan Lin</string>
-    <string name="device_dubai">Moto Edge 30</string>
-    <string name="device_dubai_description">dubai | Jayant Deshmukh</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton | Dhinesh Cool</string>
     <string name="device_lisa">Xiaomi 11 Lite NE 5G</string>
