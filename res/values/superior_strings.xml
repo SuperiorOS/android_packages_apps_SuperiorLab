@@ -119,6 +119,7 @@
     <string name="themes_title">Themes</string>
     <string name="statusbar_title">Status bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="fingerprint_category">Fingerprint</string>
 
     <!-- Sub category -->
     <string name="general_category">General</string>
@@ -348,5 +349,11 @@
     <string name="qs_tile_label_size_title">Label text size</string>
     <string name="qs_columns_portrait_title">Columns (portrait)</string>
     <string name="qs_columns_landscape_title">Columns (landscape)</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_success_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_success_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
+    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
 
 </resources>
