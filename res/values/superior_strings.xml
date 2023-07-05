@@ -106,6 +106,8 @@
     <string name="device_munch_description">munch | Mudit1808</string>
     <string name="device_RMX3371">Realme GT NEO 3T</string>
     <string name="device_RMX3371_description">RMX3371 | Provasishh</string>
+    <string name="device_lavender">Redmi Note 7/7S</string>
+    <string name="device_lavender_description">lavender | Prashant</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
