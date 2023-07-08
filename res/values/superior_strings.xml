@@ -94,6 +94,8 @@
     <string name="device_miatoll_description">miatoll | ARINDAM BHATTACHARJEE</string>
     <string name="device_venus">Xiaomi Mi 11</string>
     <string name="device_venus_description">venus | Alan Lin</string>
+    <string name="device_payton">Moto One Fusion+</string>
+    <string name="device_payton_description">liber | Dhinesh Cool</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton | Dhinesh Cool</string>
     <string name="device_lisa">Xiaomi 11 Lite NE 5G</string>
