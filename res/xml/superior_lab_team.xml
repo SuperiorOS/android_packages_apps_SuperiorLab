@@ -186,7 +186,7 @@
         android:key="maintainer_payton"
         android:title="@string/device_payton"
         android:summary="@string/device_payton_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
+        settings:layout="@layout/superior_dashboard_preference_single"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
