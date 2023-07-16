@@ -110,6 +110,8 @@
     <string name="device_RMX3371_description">RMX3371 | Provasishh</string>
     <string name="device_lavender">Redmi Note 7/7S</string>
     <string name="device_lavender_description">lavender | Prashant</string>
+    <string name="device_vayu">POCO X3 Pro</string>
+    <string name="device_vayu_description">vayu | KangMonkey</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
