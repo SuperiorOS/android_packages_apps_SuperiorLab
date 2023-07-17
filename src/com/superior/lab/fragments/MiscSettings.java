@@ -45,31 +45,15 @@ import com.android.settings.SettingsPreferenceFragment;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
-
-    private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
-
-    private SwitchPreference mPhotosSpoof;
-
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.superior_lab_misc);
-        final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mPhotosSpoof = (SwitchPreference) prefScreen.findPreference(KEY_PHOTOS_SPOOF);
-        mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
-        mPhotosSpoof.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mPhotosSpoof) {
-            boolean value = (Boolean) objValue;
-            SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
-            return true;
-        }
         return false;
     }
 

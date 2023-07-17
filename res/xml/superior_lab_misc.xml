@@ -33,18 +33,5 @@
             android:summary="@string/laboratory_ignore_window_secure_summary"
             android:defaultValue="false"/>
 
-        <!-- Unlimited google photos storage -->
-        <SwitchPreference
-            android:key="use_photos_spoof"
-            android:title="@string/use_photos_spoof_title"
-            android:summary="@string/use_photos_spoof_summary"
-            android:defaultValue="true" />
-            
-       <com.superior.support.preferences.SecureSettingSwitchPreference
-           android:key="games_device_spoof"
-           android:title="@string/games_device_spoof_title"
-           android:summary="@string/games_device_spoof_summary"
-           android:defaultValue="false"/>
-
     </PreferenceCategory>
 </PreferenceScreen>
