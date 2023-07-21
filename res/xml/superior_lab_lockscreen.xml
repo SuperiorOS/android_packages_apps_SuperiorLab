@@ -27,6 +27,12 @@
         android:title="@string/pulse_settings"
         android:summary="@string/pulse_settings_summary" />
 
+    <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
