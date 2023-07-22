@@ -453,11 +453,21 @@
         android:key="maintainer_vayu"
         android:title="@string/device_vayu"
         android:summary="@string/device_vayu_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
+        settings:layout="@layout/superior_dashboard_preference_middle"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/thepsambit" />
+</Preference>
+<Preference
+        android:key="maintainer_mojito"
+        android:title="@string/device_mojito"
+        android:summary="@string/device_mojito_description"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/Romgharti" />
 </Preference>
 
 </PreferenceCategory>
