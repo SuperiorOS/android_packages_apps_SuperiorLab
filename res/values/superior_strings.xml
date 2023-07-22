@@ -112,6 +112,8 @@
     <string name="device_lavender_description">lavender | Prashant</string>
     <string name="device_vayu">POCO X3 Pro</string>
     <string name="device_vayu_description">vayu | KangMonkey</string>
+    <string name="device_mojito">Redmi Note 10</string>
+    <string name="device_mojito_description">mojito | Rom Bdr. Gharti</string>
 
     <!-- Categories -->
     <string name="team_title">About Team</string>
