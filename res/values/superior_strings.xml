@@ -78,16 +78,12 @@
     <string name="device_lancelot_description">lancelot | Soni Dharama</string>
     <string name="device_merlinx">Redmi Note 9/Redmi 10X 4G</string>
     <string name="device_merlinx_description">merlinx | Soni Dharama</string>
-    <string name="device_begonia">Redmi Note 8 Pro</string>
-    <string name="device_begonia_description">begonia | Ayush Singh</string>
     <string name="device_spes">Redmi Note 11</string>
     <string name="device_spes_description">spes | Daniel Enweazu</string>
     <string name="device_sweet">Redmi Note 10 Pro</string>
     <string name="device_sweet_description">sweet | Unsatifsed27</string>
     <string name="device_raphael">Redmi K20 Pro/Mi 9T Pro</string>
     <string name="device_raphael_description">raphael | Anirban</string>
-    <string name="device_RMX3461">Realme 9 SE 5G</string>
-    <string name="device_RMX3461_description">RMX3461 | ZirgomHaidar</string>
     <string name="device_veux">Redmi Note 11 Pro+/Poco X4 Pro</string>
     <string name="device_veux_description">Veux/Peux | Anant_Goel</string>
     <string name="device_miatoll">Redmi Note 9s/Redmi 9 Pro/Redmi Note 9 Pro Max/Redmi Note 10 Lite/Poco M2 Pro</string>
