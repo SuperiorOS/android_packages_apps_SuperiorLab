@@ -297,7 +297,7 @@
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Eidoron1" />
+           android:data="http://t.me/Chaitanyakm" />
 </Preference>
 <Preference
         android:key="maintainer_lancelot"
