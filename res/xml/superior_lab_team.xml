@@ -276,23 +276,13 @@
         android:key="maintainer_RMX3371"
         android:title="@string/device_RMX3371"
         android:summary="@string/device_RMX3371_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
         android:icon="@drawable/ic_devs_phone">
 	<intent
            android:action="android.intent.action.VIEW"
            android:data="https://t.me/provasishh" />
     </Preference>
 
-    <Preference
-        android:key="maintainer_RMX3461"
-        android:title="@string/device_RMX3461"
-        android:summary="@string/device_RMX3461_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="https://t.me/Haidar1417" />
-    </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -349,16 +339,6 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Joker_V2_0" />
 </Preference>
-<Preference
-        android:key="maintainer_begonia"
-        android:title="@string/device_begonia"
-        android:summary="@string/device_begonia_description"
-        settings:layout="@layout/superior_dashboard_preference_middle"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/I_AM_ATOMIC" />
-    </Preference>
 <Preference
         android:key="maintainer_merlinx"
         android:title="@string/device_merlinx"
