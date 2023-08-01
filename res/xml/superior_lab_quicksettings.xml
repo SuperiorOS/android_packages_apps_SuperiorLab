@@ -31,6 +31,14 @@
             android:entryValues="@array/quick_pulldown_values"
             android:defaultValue="0" />
 
+        <com.superior.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_image"
+            android:title="@string/qs_header_image_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="24"
+            android:min="0" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
