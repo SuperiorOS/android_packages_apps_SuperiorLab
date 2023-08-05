@@ -72,6 +72,8 @@
     <string name="device_panther_description">panther | Jayant Deshmukh</string>
     <string name="device_lynx">Pixel 7a</string>
     <string name="device_lynx_description">lynx | Vikas Yaduvanshi</string>
+    <string name="device_lynx">Pixel 6 Pro</string>
+    <string name="device_lynx_description">raven | PrabhatProxy </string>
     <string name="device_alioth">Poco F3/Mi 11x/Redmi K40</string>
     <string name="device_alioth_description">alioth | CHAITANYA</string>
     <string name="device_lancelot">Redmi 9/Poco M2</string>
