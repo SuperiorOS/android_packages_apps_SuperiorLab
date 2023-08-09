@@ -41,6 +41,8 @@
     <string name="mentions_iacob_description">UI/UX Developer</string>
     <string name="mentions_pavan">Pavan Patel</string>
     <string name="mentions_pavan_description">Designer</string>
+    <string name="mentions_yash">Yash Kachave</string>
+    <string name="mentions_yash_description">Wallpaper Designer</string>
 
     <!-- Team Title -->
     <string name="superior_lab_team">Team SuperiorOS</string>
