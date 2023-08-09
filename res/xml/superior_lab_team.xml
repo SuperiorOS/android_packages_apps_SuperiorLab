@@ -132,11 +132,22 @@
         android:key="mentions_iacob"
         android:title="@string/mentions_iacob"
         android:summary="@string/mentions_iacob_description"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
+        settings:layout="@layout/superior_dashboard_preference_middle"
         android:icon="@drawable/ic_devs_mention">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/iacobionut" />
+    </Preference>
+
+    <Preference
+        android:key="mentions_yash"
+        android:title="@string/mentions_yash"
+        android:icon="@drawable/ic_devs_mention"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:summary="@string/mentions_yash_description">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Introdructor" />
     </Preference>
 
     <PreferenceCategory
