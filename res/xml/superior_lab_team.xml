@@ -83,22 +83,11 @@
         android:key="dev5"
         android:title="@string/dev_5"
         android:icon="@drawable/ic_code"
-        settings:layout="@layout/superior_dashboard_preference_middle"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
         android:summary="@string/dev5_description">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/arc_ff5f00" />
-    </Preference>
-
-    <Preference
-        android:key="dev6"
-        android:title="@string/dev_6"
-        android:icon="@drawable/ic_code"
-        settings:layout="@layout/superior_dashboard_preference_bottom"
-        android:summary="@string/dev6_description">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/BlueExOo" />
     </Preference>
 
     <PreferenceCategory
