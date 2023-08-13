@@ -177,9 +177,9 @@
            android:data="http://t.me/Vikas_2_0" />
     </Preference>
     <Preference
-        android:key="maintainer_raven"
-        android:title="@string/device_raven"
-        android:summary="@string/device_raven_description"
+        android:key="maintainer_raviole"
+        android:title="@string/device_raviole"
+        android:summary="@string/device_raviole_description"
         settings:layout="@layout/superior_dashboard_preference_bottom"
         android:icon="@drawable/ic_devs_phone">
         <intent
