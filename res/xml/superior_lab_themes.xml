@@ -29,6 +29,13 @@
         android:summary="@string/theme_customization_signal_icon_summary"
         android:fragment="com.superior.lab.fragments.SignalIcons"/>
 
+    <!-- Data icon style -->  
+    <Preference
+        android:key="android.theme.customization.sb_data"
+        android:title="@string/theme_customization_data_title"
+        android:summary="@string/theme_customization_data_summary"
+        android:fragment="com.superior.lab.fragments.DataStyles" />
+
     <!-- Wifi icon style -->
     <Preference
         android:key="android.theme.customization.wifi_icon"
