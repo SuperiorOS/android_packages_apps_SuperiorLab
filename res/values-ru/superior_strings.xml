@@ -56,8 +56,6 @@
     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
     <string name="device_enchilada">Oneplus 6</string>
     <string name="device_enchilada_description">enchilada | Vikas Yaduvanshi</string>
-    <string name="device_fajita">Oneplus 6T</string>
-    <string name="device_fajita_description">fajita | Vikas Yaduvanshi</string>
     <string name="device_panther">Pixel 7</string>
     <string name="device_panther_description">panther | Jayant Deshmukh</string>
     <string name="device_lynx">Pixel 7</string>
@@ -311,4 +309,21 @@
     <string name="qstile_requires_unlocking_summary">Данные плитки быстрого доступа требуют разблокировки девайса перед тем как вы сможете использовать с экрана блокировки:\nРежим Полета, Мобильные данные, NFC, Точка Доступа, Раздача по USB и Геолокацию</string>
     <string name="disable_qs_title">Скрыть быстрые настройки на защищённом экране блокировки</string>
     <string name="disable_qs_summary">Скрывает быстрые настройки, если устройство заблокировано. Не отключает тень уведомлений</string>
+    <string name="qs_weather_settings_title">Настройки погоды</string>
+    <string name="qs_weather_settings_summary">Настроить набор значков и службу погоды</string>
+    <string name="weather_title">Настройки погоды</string>
+    <string name="weather_config_title">Служба погоды</string>
+    <string name="weather_config_summary">Настройки системной службы</string>
+    <string name="weather_icon_pack_title">Набор значков \"Погода\"</string>
+    <string name="weather_icon_pack_note">Примечание\u003a Вы можете установить новые наборы значков из Play Маркет, введя в строке поиска \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Советы\u003a \n\n1. Пользователи могут установить новые наборы значков из Play Маркета путём поиска \"Chronus icons\".\n\n2. Пакет значков погоды используется для значков погоды в быстрых настройках и лаунчер суши на взгляд.\n\n3. Нажмите и удерживайте погоду в быстрых настройках для просмотра/логотипов/температуры для доступа к настройкам погоды.</string>
+    <string name="weather_settings_title">Настройки погоды</string>
+    <string name="weather_settings_summary">Настроить набор значков и службу погоды</string>
+    <string name="lockscreen_weather_title">Погодные условия</string>
+    <string name="lockscreen_weather_summary">Показывать текущие погодные условия и температуру</string>
+    <string name="lockscreen_weather_enabled_info">Требуется включение службы погоды</string>
+    <string name="lockscreen_weather_location_title">Местоположение</string>
+    <string name="lockscreen_weather_location_summary">Отображать текущее местоположение</string>
+    <string name="lockscreen_weather_style_title">Стиль Pixel</string>
+    <string name="lockscreen_weather_style_summary">Отображать погоду как отдельную строку</string>
 </resources>

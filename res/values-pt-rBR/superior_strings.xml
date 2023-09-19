@@ -54,10 +54,8 @@
     <string name="device_spacewar_description">spacewar | Vikas Yaduvanshi</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
-    <string name="device_enchilada">Oneplus 6</string>
-    <string name="device_enchilada_description">enchilada | Vikas Yaduvanshi</string>
-    <string name="device_fajita">Oneplus 6T</string>
-    <string name="device_fajita_description">fajita | Vikas Yaduvanshi</string>
+    <string name="device_enchilada">Oneplus 6 | 6T </string>
+    <string name="device_enchilada_description">enchilada | fajita | Vikas Yaduvanshi</string>
     <string name="device_panther">Pixel 7</string>
     <string name="device_panther_description">panther | Jayant Deshmukh</string>
     <string name="device_lynx">Pixel 7a</string>
@@ -78,7 +76,7 @@
     <string name="device_raphael_description">raphael | Anirban</string>
     <string name="device_veux">Redmi Note 11 Pro+/Poco X4 Pro</string>
     <string name="device_veux_description">Veux/Peux | Anant_Goel</string>
-    <string name="device_miatoll">Redmi Note 9s/Redmi 9 Pro/Redmi Note 9 Pro Max/Redmi Note 10 Lite/Poco M2 Pro</string>
+    <string name="device_miatoll">Redmi Note 10 Lite/Poco M2 Pro</string>
     <string name="device_miatoll_description">miatoll | ARINDAM BHATTACHARJEE</string>
     <string name="device_venus">Xiaomi Mi 11</string>
     <string name="device_venus_description">venus | Alan Lin</string>
@@ -310,4 +308,21 @@
     <string name="qstile_requires_unlocking_summary">Os seguintes blocos no painel de configurações rápidas requerem o desbloqueio antes de poder ativar/desativar a partir da tela de bloqueio:\nModo Avião, Dados Móveis, NFC, Ponto de Acesso WiFi, Compartilhamento de Internet por USB e Localização</string>
     <string name="disable_qs_title">Ocultar painel de configurações rápidas na tela de bloqueio</string>
     <string name="disable_qs_summary">Oculta as configurações rápidas quando o dispositivo está bloqueado. Isso não desativa a aba de notificações</string>
+    <string name="qs_weather_settings_title">Configurações de Clima</string>
+    <string name="qs_weather_settings_summary">Selecionar Ícones de clima e configurações de clima</string>
+    <string name="weather_title">Configurações de Clima</string>
+    <string name="weather_config_title">Serviço meteorológico</string>
+    <string name="weather_config_summary">Configurações de serviço do sistema</string>
+    <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
+    <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Dicas\u003a \n\n1. Usuários podem instalar novos pacotes de ícones da play store procurando por \"Chronus icons\".\n\n2. O pacote de ícones de condições é usado para ícones meteorológicos em configurações rápidas e launcher\n\n3. Pressione e segure a tela de configurações rápidas para ver/logo/temperatura para acessar as configurações meteorológicas com facilidade.</string>
+    <string name="weather_settings_title">Configurações de Clima</string>
+    <string name="weather_settings_summary">Configurar pacote de ícones e serviço de clima</string>
+    <string name="lockscreen_weather_title">Condições climáticas</string>
+    <string name="lockscreen_weather_summary">Mostrar a condição atual do clima e temperatura</string>
+    <string name="lockscreen_weather_enabled_info">Requer que o serviço de clima esteja habilitado</string>
+    <string name="lockscreen_weather_location_title">Localização do clima</string>
+    <string name="lockscreen_weather_location_summary">Mostrar localização do clima</string>
+    <string name="lockscreen_weather_style_title">Estilo Pixel</string>
+    <string name="lockscreen_weather_style_summary">Exibir o clima como uma linha separada</string>
 </resources>
