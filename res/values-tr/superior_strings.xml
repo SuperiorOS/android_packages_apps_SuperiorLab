@@ -308,9 +308,9 @@
     <string name="qstile_requires_unlocking_summary">Aşağıdaki hızlı ayarlar karelerinin kilit ekranından etkinleştirilebilmesi için önce kilidinin açılması gerekir:\nUçak modu, Hücresel veri, NFC, Hotspot, USB bağlantısı ve Konum</string>
     <string name="disable_qs_title">Güvenli kilit ekranında Hızlı ayarları gizle</string>
     <string name="disable_qs_summary">Cihaz kilitliyse Hızlı ayarları gizler. Bildirim panelini devre dışı bırakmaz</string>
-    <string name="qs_weather_settings_title">Hava durumu Ayarları</string>
+    <string name="qs_weather_settings_title">Hava durumu ayarları</string>
     <string name="qs_weather_settings_summary">Simge paketi ve hava durumu servisini ayarla</string>
-    <string name="weather_title">Hava durumu Ayarları</string>
+    <string name="weather_title">Hava durumu ayarları</string>
     <string name="weather_config_title">Hava durumu servisi</string>
     <string name="weather_config_summary">Sistem servisi ayarları</string>
     <string name="weather_icon_pack_title">Hava durumu simge paketi</string>
