@@ -90,12 +90,8 @@
     <string name="device_nabu_description">nabu | Saikiran</string>
     <string name="device_RMX2020">Realme C3/Narzo10A</string>
     <string name="device_RMX2020_description">RMX2020/2027 | Willy S</string>
-    <string name="device_munch">Poco F4/Redmi K40s</string>
-    <string name="device_munch_description">munch | Mudit1808</string>
     <string name="device_RMX3371">Realme GT NEO 3T</string>
     <string name="device_RMX3371_description">RMX3371 | Provasishh</string>
-    <string name="device_lavender">Redmi Note 7/7s</string>
-    <string name="device_lavender_description">lavender | Ahmed Hridoy</string>
     <string name="device_vayu">POCO X3 Pro</string>
     <string name="device_vayu_description">vayu | KangMonkey</string>
     <string name="device_mojito">Redmi Note 10</string>
