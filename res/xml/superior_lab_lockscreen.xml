@@ -8,4 +8,28 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/weather_category_title">
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_enabled"
+            android:title="@string/lockscreen_weather_title"
+            android:summary="@string/lockscreen_weather_summary" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_location"
+            android:title="@string/lockscreen_weather_location_title"
+            android:summary="@string/lockscreen_weather_location_summary"
+            android:dependency="lockscreen_weather_enabled" />
+
+        <Preference
+            android:title="@string/weather_settings_title"
+            android:summary="@string/weather_settings_summary">
+            <intent
+                 android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.omnirom.omnijaws"
+                 android:targetClass="org.omnirom.omnijaws.SettingsActivity" />
+        </Preference>
+
+    </PreferenceCategory>
 </PreferenceScreen>
