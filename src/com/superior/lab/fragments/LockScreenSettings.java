@@ -28,7 +28,7 @@ import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
@@ -37,9 +37,15 @@ import androidx.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.superior.OmniJawsClient;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String KEY_WEATHER = "lockscreen_weather_enabled";
+
+    private Preference mWeather;
+    private OmniJawsClient mWeatherClient;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -51,12 +57,30 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
+        mWeather = (Preference) findPreference(KEY_WEATHER);
+        mWeatherClient = new OmniJawsClient(getContext());
+        updateWeatherSettings();
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
 
         return false;
+    }
+
+    private void updateWeatherSettings() {
+        if (mWeatherClient == null || mWeather == null) return;
+
+        boolean weatherEnabled = mWeatherClient.isOmniJawsEnabled();
+        mWeather.setEnabled(weatherEnabled);
+        mWeather.setSummary(weatherEnabled ? R.string.lockscreen_weather_summary :
+            R.string.lockscreen_weather_enabled_info);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateWeatherSettings();
     }
 
     @Override
