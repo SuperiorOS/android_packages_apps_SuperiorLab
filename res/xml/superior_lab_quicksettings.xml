@@ -93,6 +93,22 @@
                settings:interval="1"
                android:defaultValue="2" />
 
+          <com.superior.support.preferences.SystemSettingSeekBarPreference
+               android:key="qqs_layout_rows"
+               android:title="@string/qqs_rows_portrait_title"
+               android:max="3"
+               settings:min="1"
+               settings:interval="1"
+               android:defaultValue="2" />
+
+          <com.superior.support.preferences.SystemSettingSeekBarPreference
+               android:key="qqs_layout_rows_landscape"
+               android:title="@string/qqs_rows_landscape_title"
+               android:max="3"
+               settings:min="1"
+               settings:interval="1"
+               android:defaultValue="2" />
+
      </PreferenceCategory>
 
 </PreferenceScreen>
