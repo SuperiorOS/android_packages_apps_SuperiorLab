@@ -170,29 +170,24 @@
 
     <PreferenceCategory
         android:key="maintainer"
-        android:title="@string/device_oneplus">
+        android:title="@string/device_xiaomi">
 
         <Preference
-            android:key="maintainer_avicii"
-            android:title="@string/device_avicii"
-            android:summary="@string/device_avicii_description"
-            settings:layout="@layout/superior_dashboard_preference_single"
+            android:key="maintainer_whyred"
+            android:title="@string/device_whyred"
+            android:summary="@string/device_whyred_description"
+            settings:layout="@layout/superior_dashboard_preference_top"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/Darkstar085" />
         </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_xiaomi">
 
         <Preference
             android:key="maintainer_violet"
             android:title="@string/device_violet"
             android:summary="@string/device_violet_description"
-            settings:layout="@layout/superior_dashboard_preference_single"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"

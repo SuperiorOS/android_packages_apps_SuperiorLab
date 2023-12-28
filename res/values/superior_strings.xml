@@ -48,8 +48,8 @@
      <string name="device_smartron">Smartron</string>
      <string name="device_violet">Redmi Note 7 Pro</string>
      <string name="device_violet_description">violet | Nipin NA</string>
-     <string name="device_avicii">Nord</string>
-     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
+     <string name="device_whyred">Redmi Note 5 Pro</string>
+     <string name="device_whyred_description">whyred | Sipun Ku Mahanta</string>
      <string name="device_panther">Pixel 7</string>
      <string name="device_panther_description">panther | Jayant Deshmukh</string>
 
@@ -135,8 +135,8 @@
           lockscreen</string>
 
      <!-- Status bar - Battery -->
-     <string name="status_bar_battery_category_title">StatusBar Battery customizations</string>
-     <string name="status_bar_battery_style_title">Battery style</string>
+     <string name="status_bar_battery_category_title">Statusbar Battery Customizations</string>
+     <string name="status_bar_battery_style_title">Battery Style</string>
      <string name="status_bar_battery_style_summary">Statusbar and QS Battery Styles</string>
      <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
      <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
@@ -158,7 +158,7 @@
           charging</string>
 
      <!-- QS battery -->
-     <string name="qs_battery_category_title">Qs Battery customizations</string>
+     <string name="qs_battery_category_title">QS Battery Customizations</string>
      <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
 
      <!-- Status bar - Clock -->
