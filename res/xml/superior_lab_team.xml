@@ -266,6 +266,18 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Joker_V2_0" />
         </Preference>
+
+        <Preference
+            android:key="maintainer_marble"
+            android:title="@string/device_marble"
+            android:summary="@string/device_marble_description"
+            settings:layout="@layout/superior_dashboard_preference_middle"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/chaitanyabuilds" />
+        </Preference>
+
         <Preference
             android:key="maintainer_merlinx"
             android:title="@string/device_merlinx"

@@ -66,6 +66,8 @@
      <string name="device_liber_description">liber | Dhinesh Cool</string>
      <string name="device_payton">Moto X4</string>
      <string name="device_payton_description">payton | Dhinesh Cool</string>
+     <string name="device_marble">Poco F5/Redmi Note 12T</string>
+     <string name="device_marble_description">marble | Chaitanya</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
