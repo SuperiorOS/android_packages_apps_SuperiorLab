@@ -50,14 +50,22 @@
      <string name="device_violet_description">violet | Nipin NA</string>
      <string name="device_whyred">Redmi Note 5 Pro</string>
      <string name="device_whyred_description">whyred | Sipun Ku Mahanta</string>
-     <string name="device_enchilada">Oneplus 6</string>
-     <string name="device_enchilada_description">enchilada | Vikas Yaduvanshi</string>
-     <string name="device_fajita">Oneplus 6T</string>
-     <string name="device_fajita_description">fajita | Vikas Yaduvanshi</string>
+     <string name="device_avicii">Nord</string>
+     <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
+     <string name="device_enchilada">Oneplus 6 | 6T </string>
+     <string name="device_enchilada_description">enchilada | fajita | Vikas Yaduvanshi</string>
      <string name="device_panther">Pixel 7</string>
      <string name="device_panther_description">panther | Jayant Deshmukh</string>
      <string name="device_lynx">Pixel 7a</string>
      <string name="device_lynx_description">lynx | vikas Yaduvanshi</string>
+     <string name="device_lancelot">Redmi 9/Poco M2</string>
+     <string name="device_lancelot_description">lancelot | Soni Dharama</string>
+     <string name="device_merlinx">Redmi Note 9/Redmi 10X 4G</string>
+     <string name="device_merlinx_description">merlinx | Soni Dharama</string>
+     <string name="device_liber">Moto One Fusion+</string>
+     <string name="device_liber_description">liber | Dhinesh Cool</string>
+     <string name="device_payton">Moto X4</string>
+     <string name="device_payton_description">payton | Dhinesh Cool</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
