@@ -279,6 +279,17 @@
         </Preference>
 
         <Preference
+            android:key="maintainer_haydn"
+            android:title="@string/device_haydn"
+            android:summary="@string/device_haydn_description"
+            settings:layout="@layout/superior_dashboard_preference_middle"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/AshraySingh" />
+        </Preference>
+
+        <Preference
             android:key="maintainer_merlinx"
             android:title="@string/device_merlinx"
             android:summary="@string/device_merlinx_description"
