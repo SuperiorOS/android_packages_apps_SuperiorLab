@@ -166,6 +166,7 @@
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/JD1811" />
         </Preference>
+
         <Preference
             android:key="maintainer_lynx"
             android:title="@string/device_lynx"
@@ -192,6 +193,7 @@
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/cool585" />
         </Preference>
+
         <Preference
             android:key="maintainer_payton"
             android:title="@string/device_payton"
@@ -235,10 +237,43 @@
         android:title="@string/device_xiaomi">
 
         <Preference
+            android:key="maintainer_haydn"
+            android:title="@string/device_haydn"
+            android:summary="@string/device_haydn_description"
+            settings:layout="@layout/superior_dashboard_preference_top"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/AshraySingh" />
+        </Preference>
+
+        <Preference
+            android:key="maintainer_marble"
+            android:title="@string/device_marble"
+            android:summary="@string/device_marble_description"
+            settings:layout="@layout/superior_dashboard_preference_middle"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/chaitanyabuilds" />
+        </Preference>
+
+        <Preference
+            android:key="maintainer_miatoll"
+            android:title="@string/device_miatoll"
+            android:summary="@string/device_miatoll_description"
+            settings:layout="@layout/superior_dashboard_preference_middle"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/clarencekopitiam" />
+        </Preference>
+
+        <Preference
             android:key="maintainer_lancelot"
             android:title="@string/device_lancelot"
             android:summary="@string/device_lancelot_description"
-            settings:layout="@layout/superior_dashboard_preference_top"
+            settings:layout="@layout/superior_dashboard_preference_middle"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -265,28 +300,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/Joker_V2_0" />
-        </Preference>
-
-        <Preference
-            android:key="maintainer_marble"
-            android:title="@string/device_marble"
-            android:summary="@string/device_marble_description"
-            settings:layout="@layout/superior_dashboard_preference_middle"
-            android:icon="@drawable/ic_devs_phone">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://t.me/chaitanyabuilds" />
-        </Preference>
-
-        <Preference
-            android:key="maintainer_haydn"
-            android:title="@string/device_haydn"
-            android:summary="@string/device_haydn_description"
-            settings:layout="@layout/superior_dashboard_preference_middle"
-            android:icon="@drawable/ic_devs_phone">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://t.me/AshraySingh" />
         </Preference>
 
         <Preference

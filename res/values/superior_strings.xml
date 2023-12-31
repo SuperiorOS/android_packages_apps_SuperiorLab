@@ -50,7 +50,7 @@
      <string name="device_violet_description">violet | Nipin NA</string>
      <string name="device_whyred">Redmi Note 5 Pro</string>
      <string name="device_whyred_description">whyred | Sipun Ku Mahanta</string>
-     <string name="device_avicii">Nord</string>
+     <string name="device_avicii">Oneplus Nord</string>
      <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
      <string name="device_enchilada">Oneplus 6 | 6T </string>
      <string name="device_enchilada_description">enchilada | fajita | Vikas Yaduvanshi</string>
@@ -70,6 +70,8 @@
      <string name="device_marble_description">marble | Chaitanya</string>
      <string name="device_haydn">Mi 11x Pro/Redmi K40 Pro</string>
      <string name="device_haydn_description">haydn | Ashray Singh</string>
+     <string name="device_miatoll">Poco M2 Pro / Redmi Note 9S</string>
+     <string name="device_miatoll_description">miatoll | Clarence K</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
