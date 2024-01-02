@@ -312,6 +312,17 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/StartTrueDreams" />
         </Preference>
+
+        <Preference
+            android:key="maintainer_sweet"
+            android:title="@string/device_sweet"
+            android:summary="@string/device_sweet_description"
+            settings:layout="@layout/superior_dashboard_preference_middle"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Djampt" />
+        </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen>
