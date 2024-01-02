@@ -72,6 +72,8 @@
      <string name="device_haydn_description">haydn | Ashray Singh</string>
      <string name="device_miatoll">Poco M2 Pro / Redmi Note 9S</string>
      <string name="device_miatoll_description">miatoll | Clarence K</string>
+     <string name="device_raphael">Redmi K20 Pro/MI 9T Pro</string>
+     <string name="device_raphael_description">raphael | Anirban</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
