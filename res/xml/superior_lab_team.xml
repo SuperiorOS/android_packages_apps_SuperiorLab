@@ -306,11 +306,22 @@
             android:key="maintainer_merlinx"
             android:title="@string/device_merlinx"
             android:summary="@string/device_merlinx_description"
-            settings:layout="@layout/superior_dashboard_preference_bottom"
+            settings:layout="@layout/superior_dashboard_preference_middle"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/StartTrueDreams" />
+        </Preference>
+
+        <Preference
+            android:key="maintainer_veux"
+            android:title="@string/device_veux"
+            android:summary="@string/device_veux_description"
+            settings:layout="@layout/superior_dashboard_preference_bottom"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/FreakyPrateek" />
         </Preference>
     </PreferenceCategory>
 
