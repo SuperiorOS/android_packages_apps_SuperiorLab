@@ -74,6 +74,8 @@
      <string name="device_miatoll_description">miatoll | Clarence K</string>
      <string name="device_veux">Redmi Note 11 Pro/Pro+/Poco X4 Pro</string>
      <string name="device_veux_description">veux | peux | Freaky Prateek</string>
+     <string name="device_sweet">Redmi Note 10 Pro</string>
+     <string name="device_sweet_description">sweet | unsatifsed27</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
