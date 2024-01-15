@@ -8,6 +8,12 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.superior.support.preferences.SecureSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:title="@string/weather_category_title">
 
