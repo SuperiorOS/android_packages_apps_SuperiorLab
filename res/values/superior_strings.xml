@@ -315,4 +315,9 @@
 
      <!-- Lock screen cover art -->
      <string name="lockscreen_media_blur_title">Media art blur level</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Less boring</string>
+    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+
 </resources>
