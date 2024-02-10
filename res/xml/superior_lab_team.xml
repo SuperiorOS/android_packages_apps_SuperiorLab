@@ -248,6 +248,17 @@
         </Preference>
 
         <Preference
+            android:key="maintainer_beryllium"
+            android:title="@string/device_beryllium"
+            android:summary="@string/device_beryllium_description"
+            settings:layout="@layout/superior_dashboard_preference_middle"
+            android:icon="@drawable/ic_devs_phone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/Legendleo90" />
+        </Preference>
+
+        <Preference
             android:key="maintainer_marble"
             android:title="@string/device_marble"
             android:summary="@string/device_marble_description"
