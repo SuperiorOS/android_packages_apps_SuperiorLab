@@ -72,10 +72,12 @@
      <string name="device_haydn_description">haydn | Ashray Singh</string>
      <string name="device_miatoll">Poco M2 Pro / Redmi Note 9S</string>
      <string name="device_miatoll_description">miatoll | Clarence K</string>
-     <string name="device_veux">Redmi Note 11 Pro/Pro+/Poco X4 Pro</string>
+     <string name="device_veux">Redmi Note 11 Pro/Poco X4 Pro</string>
      <string name="device_veux_description">veux | peux | Freaky Prateek</string>
      <string name="device_sweet">Redmi Note 10 Pro</string>
      <string name="device_sweet_description">sweet | unsatifsed27</string>
+     <string name="device_beryllium">Pocophone F1</string>
+     <string name="device_beryllium_description">beryllium | Akshat</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
