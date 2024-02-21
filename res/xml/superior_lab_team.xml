@@ -171,12 +171,22 @@
             android:key="maintainer_lynx"
             android:title="@string/device_lynx"
             android:summary="@string/device_lynx_description"
-            settings:layout="@layout/superior_dashboard_preference_bottom"
+            settings:layout="@layout/superior_dashboard_preference_middle"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/Vikas_2_0" />
         </Preference>
+        <Preference
+        android:key="maintainer_raviole"
+        android:title="@string/device_raviole"
+        android:summary="@string/device_raviole_description"
+        settings:layout="@layout/superior_dashboard_preference_bottom"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/prabhat_proxy" />
+    </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
