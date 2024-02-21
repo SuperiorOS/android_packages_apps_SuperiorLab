@@ -58,6 +58,8 @@
      <string name="device_panther_description">panther | Jayant Deshmukh</string>
      <string name="device_lynx">Pixel 7a</string>
      <string name="device_lynx_description">lynx | vikas Yaduvanshi</string>
+     <string name="device_raviole">Pixel 6/6 Pro</string>
+     <string name="device_raviole_description">raviole | Prabhat Maurya</string>
      <string name="device_lancelot">Redmi 9/Poco M2</string>
      <string name="device_lancelot_description">lancelot | Soni Dharama</string>
      <string name="device_merlinx">Redmi Note 9/Redmi 10X 4G</string>
