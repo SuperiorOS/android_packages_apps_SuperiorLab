@@ -168,16 +168,6 @@
         </Preference>
 
         <Preference
-            android:key="maintainer_lynx"
-            android:title="@string/device_lynx"
-            android:summary="@string/device_lynx_description"
-            settings:layout="@layout/superior_dashboard_preference_middle"
-            android:icon="@drawable/ic_devs_phone">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://t.me/Vikas_2_0" />
-        </Preference>
-        <Preference
         android:key="maintainer_raviole"
         android:title="@string/device_raviole"
         android:summary="@string/device_raviole_description"
@@ -197,23 +187,13 @@
             android:key="maintainer_liber"
             android:title="@string/device_liber"
             android:summary="@string/device_liber_description"
-            settings:layout="@layout/superior_dashboard_preference_top"
+            settings:layout="@layout/superior_dashboard_preference_single"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/cool585" />
         </Preference>
 
-        <Preference
-            android:key="maintainer_payton"
-            android:title="@string/device_payton"
-            android:summary="@string/device_payton_description"
-            settings:layout="@layout/superior_dashboard_preference_bottom"
-            android:icon="@drawable/ic_devs_phone">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://t.me/cool585" />
-        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -224,21 +204,11 @@
             android:key="maintainer_avicii"
             android:title="@string/device_avicii"
             android:summary="@string/device_avicii_description"
-            settings:layout="@layout/superior_dashboard_preference_top"
+            settings:layout="@layout/superior_dashboard_preference_single"
             android:icon="@drawable/ic_devs_phone">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/Darkstar085" />
-        </Preference>
-        <Preference
-            android:key="maintainer_enchilada"
-            android:title="@string/device_enchilada"
-            android:summary="@string/device_enchilada_description"
-            settings:layout="@layout/superior_dashboard_preference_bottom"
-            android:icon="@drawable/ic_devs_phone">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://t.me/Vikas_2_0" />
         </Preference>
     </PreferenceCategory>
 

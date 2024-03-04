@@ -52,12 +52,8 @@
      <string name="device_whyred_description">whyred | Sipun Ku Mahanta</string>
      <string name="device_avicii">Oneplus Nord</string>
      <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
-     <string name="device_enchilada">Oneplus 6 | 6T </string>
-     <string name="device_enchilada_description">enchilada | fajita | Vikas Yaduvanshi</string>
      <string name="device_panther">Pixel 7</string>
      <string name="device_panther_description">panther | Jayant Deshmukh</string>
-     <string name="device_lynx">Pixel 7a</string>
-     <string name="device_lynx_description">lynx | vikas Yaduvanshi</string>
      <string name="device_raviole">Pixel 6/6 Pro</string>
      <string name="device_raviole_description">raviole | Prabhat Maurya</string>
      <string name="device_lancelot">Redmi 9/Poco M2</string>
@@ -66,8 +62,6 @@
      <string name="device_merlinx_description">merlinx | Soni Dharama</string>
      <string name="device_liber">Moto One Fusion+</string>
      <string name="device_liber_description">liber | Dhinesh Cool</string>
-     <string name="device_payton">Moto X4</string>
-     <string name="device_payton_description">payton | Dhinesh Cool</string>
      <string name="device_marble">Poco F5/Redmi Note 12T</string>
      <string name="device_marble_description">marble | Chaitanya</string>
      <string name="device_haydn">Mi 11x Pro/Redmi K40 Pro</string>
