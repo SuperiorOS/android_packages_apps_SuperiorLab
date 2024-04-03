@@ -9,6 +9,23 @@
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
      <PreferenceCategory
+          android:title="@string/network_traffic_state_title">
+
+          <com.superior.support.preferences.SystemSettingSwitchPreference
+               android:key="network_traffic_state"
+               android:title="@string/network_traffic_master_switch_title"
+               android:summary="@string/network_traffic_state_summary"
+               android:defaultValue="false" />
+
+          <com.superior.support.preferences.SystemSettingSwitchPreference
+               android:key="network_traffic_autohide_threshold"
+               android:title="@string/network_traffic_autohide_title"
+               android:summary="@string/network_traffic_autohide_summary"
+               android:dependency="network_traffic_state"
+               android:defaultValue="false" />
+
+     </PreferenceCategory>
+     <PreferenceCategory
           android:key="statusbar_icons"
           android:title="@string/sb_icons">
 
