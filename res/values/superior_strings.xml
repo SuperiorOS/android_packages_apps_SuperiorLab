@@ -357,4 +357,10 @@
      <!-- Quick settings haptic feedback -->
      <string name="quick_settings_vibrate_title">Vibrate on touch</string>
      <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
+     <!-- Secure Quick settings -->
+     <string name="quick_settings_secure_lock_screen_title">Hide on secure lock screen</string>
+     <string name="quick_settings_secure_lock_screen_summary">Hide all quick settings in the
+          notification shade while the device is locked</string>
+
 </resources>
