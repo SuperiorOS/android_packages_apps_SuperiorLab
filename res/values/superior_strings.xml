@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022-2023 The Superior OS Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
+<!--
+     Copyright (C)2020-2024 The SuperiorOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
@@ -21,9 +11,9 @@
      <!-- Dev Info -->
      <string name="devs_header">Core Team</string>
      <string name="dev_1">Sipun Ku Mahanta</string>
-     <string name="dev1_description">Founder/Developer</string>
+     <string name="dev1_description">Founder/Lead Developer</string>
      <string name="dev_2">Jayant Deshmukh</string>
-     <string name="dev2_description">Lead Developer</string>
+     <string name="dev2_description">Developer</string>
      <string name="dev_3">Nipin NA</string>
      <string name="dev3_description">Developer</string>
      <string name="dev_4">Adnan Faysal</string>
@@ -60,8 +50,8 @@
      <string name="device_violet_description">violet | Nipin NA</string>
      <string name="device_avicii">Nord</string>
      <string name="device_avicii_description">avicii | Sipun Ku Mahanta</string>
-     <string name="device_panther">Pixel 7</string>
-     <string name="device_panther_description">panther | Jayant Deshmukh</string>
+     <string name="device_shiba">Pixel 8</string>
+     <string name="device_shiba_description">shiba | Jayant Deshmukh</string>
 
      <!-- Categories -->
      <string name="team_title">About Team</string>
@@ -81,6 +71,10 @@
      <string name="reset">Reset</string>
      <string name="cancel">Cancel</string>
      <string name="save">Save</string>
+     <string name="default_string">Default</string>
+     <string name="disabled">Disabled</string>
+     <string name="enable">Enable</string>
+     <string name="disable">Disable</string>
 
      <!-- Sub category -->
      <string name="general_category">General</string>
