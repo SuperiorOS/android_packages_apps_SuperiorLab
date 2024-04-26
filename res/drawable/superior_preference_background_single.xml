@@ -24,7 +24,7 @@
                 android:topLeftRadius="@dimen/superior_radius"
                 android:bottomLeftRadius="@dimen/superior_radius"
                 android:bottomRightRadius="@dimen/superior_radius"
-                 />
+            />
         </shape>
     </item>
     <item android:id="@android:id/background">
