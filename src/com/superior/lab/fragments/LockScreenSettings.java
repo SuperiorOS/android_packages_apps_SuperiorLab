@@ -34,6 +34,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 
+import android.hardware.fingerprint.FingerprintManager;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -43,6 +44,10 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String KEY_WEATHER = "lockscreen_weather_enabled";
+
+    private static final String KEY_FINGERPRINT_CATEGORY = "lock_screen_fingerprint_category";
+    private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
+    private PreferenceCategory mFingerprintCategory;
 
     private Preference mWeather;
     private OmniJawsClient mWeatherClient;
@@ -60,6 +65,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mWeather = (Preference) findPreference(KEY_WEATHER);
         mWeatherClient = new OmniJawsClient(getContext());
         updateWeatherSettings();
+
+        mFingerprintCategory = (PreferenceCategory) findPreference(KEY_FINGERPRINT_CATEGORY);
+        FingerprintManager fingerprintManager = (FingerprintManager)
+                getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        if (fingerprintManager == null || !fingerprintManager.isHardwareDetected()) {
+            prefScreen.removePreference(mFingerprintCategory);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

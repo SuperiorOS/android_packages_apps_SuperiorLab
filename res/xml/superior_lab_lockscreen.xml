@@ -33,6 +33,17 @@
         android:fragment="com.superior.lab.fragments.WallpaperDepth" />
 
     <PreferenceCategory
+        android:key="lock_screen_fingerprint_category"
+        android:title="@string/lock_screen_fingerprint_category">
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/lock_screen_fingerprint_ripple_title"
+            android:summary="@string/lock_screen_fingerprint_ripple_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/weather_category_title">
 
         <com.superior.support.preferences.SystemSettingSwitchPreference
