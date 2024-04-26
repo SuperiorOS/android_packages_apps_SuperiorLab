@@ -8,6 +8,7 @@ package com.superior.lab.fragments;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
@@ -36,6 +37,11 @@ public class Spoofing extends SettingsPreferenceFragment implements
 
     private PreferenceCategory mSystemWideCategory;
     private SystemPropertySwitchPreference mPixelProps;
+
+    private static final String KEY_FINGERPRINT_CATEGORY = "lock_screen_fingerprint_category";
+    private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
+
+    private PreferenceCategory mFingerprintCategory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,6 +76,13 @@ public class Spoofing extends SettingsPreferenceFragment implements
             public List<String> getNonIndexableKeys(Context context) {
                 List<String> keys = super.getNonIndexableKeys(context);
                 final Resources resources = context.getResources();
+
+                FingerprintManager fingerprintManager = (FingerprintManager)
+                    context.getSystemService(Context.FINGERPRINT_SERVICE);
+
+                if (fingerprintManager == null || !fingerprintManager.isHardwareDetected()) {
+                    keys.add(KEY_RIPPLE_EFFECT);
+                }
                 return keys;
             }
         };
