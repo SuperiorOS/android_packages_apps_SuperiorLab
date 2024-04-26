@@ -86,4 +86,7 @@
      <!-- Navigation -->
      <string name="system_navigation_summary">Configure navigation menus</string>
 
+     <!-- Statusbar Items -->
+     <string name="sb_icons">Statusbar Icons</string>
+     <string name="statusbar_items_category">Statusbar items</string>
 </resources>
