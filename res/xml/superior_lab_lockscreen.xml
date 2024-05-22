@@ -41,6 +41,19 @@
             android:title="@string/lock_screen_fingerprint_ripple_title"
             android:summary="@string/lock_screen_fingerprint_ripple_summary"
             android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="fp_success_vibrate"
+            android:title="@string/lock_screen_fingerprint_success_vibration_title"
+            android:summary="@string/lock_screen_fingerprint_success_vibration_summary"
+            android:defaultValue="true" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="fp_error_vibrate"
+            android:title="@string/lock_screen_fingerprint_error_vibration_title"
+            android:summary="@string/lock_screen_fingerprint_error_vibration_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

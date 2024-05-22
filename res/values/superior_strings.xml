@@ -363,10 +363,16 @@
      <string name="quick_settings_secure_lock_screen_summary">Hide all quick settings in the
           notification shade while the device is locked</string>
 
-     <!-- Fingerprint Ripple -->
+     <!-- Fingerprint -->
      <string name="lock_screen_fingerprint_category">Fingerprint</string>
      <string name="lock_screen_fingerprint_ripple_title">Ripple animation</string>
      <string name="lock_screen_fingerprint_ripple_summary">Show ripple animation when unlocked with
           fingerprint</string>
+     <string name="lock_screen_fingerprint_success_vibration_title">Authentication success vibration</string>
+     <string name="lock_screen_fingerprint_success_vibration_summary">Vibrate when fingerprint
+          authentication is successful</string>
+     <string name="lock_screen_fingerprint_error_vibration_title">Authentication error vibration</string>
+     <string name="lock_screen_fingerprint_error_vibration_summary">Vibrate when fingerprint
+          authentication fails</string>
 
 </resources>
