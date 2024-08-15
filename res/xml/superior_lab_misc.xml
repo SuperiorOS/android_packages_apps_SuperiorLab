@@ -8,20 +8,24 @@
     android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <PreferenceCategory
+    <PreferenceCategory
         android:title="@string/general_category">
 
         <com.superior.support.preferences.SecureSettingSwitchPreference
             android:key="window_ignore_secure"
             android:title="@string/laboratory_ignore_window_secure_title"
             android:summary="@string/laboratory_ignore_window_secure_summary"
-            android:defaultValue="false"/>
+            android:defaultValue="false" />
 
-        <com.superior.support.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.pixelprops.gphotos"
-            android:title="@string/use_photos_spoof_title"
-            android:summary="@string/use_photos_spoof_summary"
-            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="miscellaneous_spoofing_category"
+        android:title="@string/miscellaneous_spoofing_category">
 
+        <Preference
+            android:key="spoofing"
+            android:title="@string/spoofing_title"
+            android:summary="@string/spoofing_summary"
+            android:fragment="com.superior.lab.fragments.Spoofing" />
     </PreferenceCategory>
 </PreferenceScreen>

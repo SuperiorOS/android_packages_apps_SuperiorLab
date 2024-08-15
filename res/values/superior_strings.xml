@@ -79,6 +79,7 @@
      <!-- Sub category -->
      <string name="general_category">General</string>
      <string name="power_category">Power Menu</string>
+     <string name="miscellaneous_spoofing_category">Spoofing</string>
 
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
@@ -193,15 +194,13 @@
 
      <!-- Ambient Ticker -->
      <string name="pulse_on_new_tracks_title">Music ticker</string>
-     <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change or now playing song detection</string>
-
-     <!-- Unlimited google photos storage -->
-     <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-     <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+     <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track
+          change or now playing song detection</string>
 
      <!-- Volume button music control -->
      <string name="volume_button_music_control_title">Playback control</string>
-     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume
+          keys will skip music tracks</string>
 
      <!-- Quick QS pulldown -->
      <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
@@ -239,7 +238,8 @@
 
      <!-- Lockscreen battery info indicator  -->
      <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+     <string name="lockscreen_battery_info_summary">Display negociated charger max current and
+          voltage and battery temperature on lockscreen while charging</string>
 
      <!-- Status bar - Battery -->
      <string name="status_bar_battery_category_title">StatusBar Battery customizations</string>
@@ -267,4 +267,29 @@
      <!-- QS battery -->
      <string name="qs_battery_category_title">Qs Battery customizations</string>
      <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+
+     <!-- Miscellaneous/Spoofing -->
+     <string name="spoofing_title">Component spoofing</string>
+     <string name="spoofing_summary">Bypass app restrictions by spoofing components</string>
+     <string name="spoofing_system_wide_category">System-Wide</string>
+     <string name="spoofing_pif_toggle_title">Play Integrity fix</string>
+     <string name="spoofing_pif_toggle_summary">Use the ROM\'s built-in Play Integrity fix values</string>
+     <string name="spoofing_pif_values_title">Play Integrity fix values</string>
+     <string name="spoofing_pif_values_summary">View current values used to spoof GMS for Play
+          Integrity API certification</string>
+     <string name="spoofing_pixel_props_title">Pixel props</string>
+     <string name="spoofing_pixel_props_summary">Spoof the device as a Pixel 9 Pro for select Google
+          apps</string>
+     <string name="spoofing_storage_encryption_title">Storage encryption</string>
+     <string name="spoofing_storage_encryption_summary">Spoof the device storage encryption status
+          to \'Encrypted\'</string>
+     <string name="spoofing_app_specific_category">App-Specific</string>
+     <string name="spoofing_photos_title">Google Photos spoof</string>
+     <string name="spoofing_photos_summary">Spoof the Google Photos app as a Pixel XL</string>
+     <string name="spoofing_games_title">Higher FPS in games</string>
+     <string name="spoofing_games_summary">Spoof the device as different models for select games to
+          unlock higher FPS</string>
+     <string name="spoofing_snapchat_title">Snapchat spoof</string>
+     <string name="spoofing_snapchat_summary">Spoof Snapchat as a Pixel XL to allow original quality
+          captures</string>
 </resources>

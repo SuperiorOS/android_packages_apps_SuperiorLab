@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2024 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/spoofing_title">
+
+    <PreferenceCategory
+        android:key="spoofing_system_wide_category"
+        android:title="@string/spoofing_system_wide_category">
+
+        <!-- Prebuilt PIF -->
+        <com.superior.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pihooks.enable"
+            android:title="@string/spoofing_pif_toggle_title"
+            android:summary="@string/spoofing_pif_toggle_summary"
+            android:defaultValue="true" />
+
+        <Preference
+            android:key="spoofing_pif_values"
+            android:title="@string/spoofing_pif_values_title"
+            android:summary="@string/spoofing_pif_values_summary"
+            android:dependency="persist.sys.pihooks.enable">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.goolag.pif"
+                android:targetClass="com.goolag.pif.PifActivity" />
+        </Preference>
+
+        <!-- Pixel props -->
+        <com.superior.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pphooks.enable"
+            android:title="@string/spoofing_pixel_props_title"
+            android:summary="@string/spoofing_pixel_props_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="spoofing_app_specific_category"
+        android:title="@string/spoofing_app_specific_category">
+
+        <!-- Google Photos -->
+        <com.superior.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.gphooks.enable"
+            android:title="@string/spoofing_photos_title"
+            android:summary="@string/spoofing_photos_summary"
+            android:defaultValue="false" />
+
+        <!-- Games fps -->
+        <com.superior.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.gamehooks.enable"
+            android:title="@string/spoofing_games_title"
+            android:summary="@string/spoofing_games_summary"
+            android:defaultValue="false" />
+
+        <!-- Snapchat -->
+        <com.superior.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.snaphooks.enable"
+            android:title="@string/spoofing_snapchat_title"
+            android:summary="@string/spoofing_snapchat_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
