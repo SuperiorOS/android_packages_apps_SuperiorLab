@@ -292,4 +292,8 @@
      <string name="spoofing_snapchat_title">Snapchat spoof</string>
      <string name="spoofing_snapchat_summary">Spoof Snapchat as a Pixel XL to allow original quality
           captures</string>
+
+     <!-- Annoying Notifications -->
+     <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
