@@ -267,4 +267,8 @@
      <!-- QS battery -->
      <string name="qs_battery_category_title">Qs Battery customizations</string>
      <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+
+     <!-- Annoying Notifications -->
+     <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
