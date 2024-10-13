@@ -311,4 +311,22 @@
      <string name="alert_slider_notifications_title">Alert slider notifications</string>
      <string name="alert_slider_notifications_summary">Display notification when changing alert
           slider position</string>
+
+     <!-- Depth Wallpaper -->
+     <string name="dw_file_header_select_title">Select Depth Wallpaper Subject</string>
+     <string name="dw_file_header_select_summary">Select depth wallpaper subject image from storage.</string>
+     <string name="dw_wallpaper_enabled_title">Depth Wallpaper</string>
+     <string name="dw_wallpaper_enabled_summary">Enable iOS-inspired depth wallpaper. Requires a
+          subject image.</string>
+     <string name="dw_wallpaper_opacity_title">Depth Wallpaper Opacity</string>
+     <string name="depth_wallpaper_offset_x_title">Depth Wallpaper Horizontal Offset</string>
+     <string name="depth_wallpaper_offset_y_title">Depth Wallpaper Vertical Offset</string>
+     <string name="dw_footer_text">
+          The depth wallpaper feature, inspired by iOS\'s Wallpaper Subject Segmentation, enables
+          overlaying of a subject above the lockscreen clock to show a wallpaper depth effect.\n\nTo
+          setup Depth Wallpaper Feature:\n1. Set a wallpaper with the subject or a background you
+          want the subject to be above of.\n2. Select a subject image to track, this image will be
+          overlaid above the lockscreen clock.\n3. Modify the offsets and opacity according to your
+          needs.
+     </string>
 </resources>

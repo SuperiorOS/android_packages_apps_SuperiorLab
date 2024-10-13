@@ -20,6 +20,13 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+
+	<Preference
+            android:key="depth_wallpaper"
+            android:title="@string/dw_wallpaper_enabled_title"
+            android:summary="@string/dw_wallpaper_enabled_summary"
+            android:fragment="com.superior.lab.fragments.WallpaperDepth" />
+
     <PreferenceCategory
         android:title="@string/weather_category_title">
 
