@@ -15,6 +15,13 @@
         android:entryValues="@array/quick_pulldown_values"
         android:defaultValue="0" />
 
+        <!-- QS Header -->
+        <Preference
+            android:key="qs_header_image"
+            android:summary="@string/qs_header_image_summary"
+            android:title="@string/qs_header_image_title"
+            android:fragment="com.superior.lab.fragments.QsHeaderImageSettings" />
+
      <PreferenceCategory
           android:title="@string/qs_show_brightness_slider_title">
 

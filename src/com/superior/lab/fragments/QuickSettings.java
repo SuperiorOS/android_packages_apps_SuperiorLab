@@ -38,6 +38,9 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.superior.lab.fragments.QsHeaderImageSettings;
+import com.superior.support.preferences.SystemSettingListPreference;
+
 import java.util.List;
 import java.util.ArrayList;
 
